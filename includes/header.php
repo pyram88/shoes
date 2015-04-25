@@ -15,11 +15,11 @@
 			<nav>
 				<ul id="menu">
 					<li>
-						<a href="#">Plus</a>
-						<ul>
-							<li><a href="contact.php">Contact</a></li>
-							<li><a href="merciqui.php">Merci qui?</a></li>
-						</ul>
+						<a href="merciqui.php">Merci qui?</a>
+					</li>
+					
+					<li>
+						<a href="contact.php">Contact</a>
 					</li>
 
 					<li>
@@ -27,11 +27,7 @@
 					</li>	
 
 					<li>
-						<a href="#">Compte</a>
-						<ul>
-							<li><a href="profil.php">Salut Chaire EEE!</li>
-							<li><a href="#">Mes commandes</a></li>
-						</ul>
+						<a href="profil.php">Compte</a>
 					</li>	
 
 					<li>

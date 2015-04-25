@@ -1,8 +1,8 @@
 body
 {
-	background-image: url("../image/Background3.jpg");
+	/*background-image: url("../image/Background3.jpg");
 	 
-	background-repeat: repeat-x;
+	background-repeat: repeat-x;*/
 
 }
 
@@ -14,10 +14,22 @@ body
 
 @font-face 
 {
-	font-family: "Open-sans";
+	font-family: "Neutra";
+	src: url("../fonts/Neutra.ttf");
+}
+
+@font-face 
+{
+   	font-family: "Open-sans";
 	src: url("../fonts/OpenSans-Regular.ttf");
 	font-family:"Open-sans-light";
 	src: url("../fonts/OpenSans-Light.ttf");
+}
+
+@font-face
+{
+	font-family:"Peignot";
+	src: url("../fonts/Peignot.ttf");
 }
 	
 #main
@@ -29,16 +41,15 @@ body
 
 
 nav{
-	width:469px;
-	margin:auto;
+	/*width:469px;*/
+	margin-top: -45px;
 }
 
 
 #title1
 {
-	width:304px;
-	margin: auto;
-	margin-top: 130px;
+	width:350px;
+	margin-top: 30px;
 }
 
 #title1 h1
@@ -46,7 +57,7 @@ nav{
 	text-align:center;
 	margin-bottom: 0;
 	color:rgb(254,134,120);
-	font-size: 58px;
+	font-size: 65px;
 	font-family:"Alex-Brush";
 }
 
@@ -55,8 +66,8 @@ nav{
 	text-align:center;
 	margin-top:-15px;
 	font-family: "Alex-Brush";
-	font-size: 17px;
-	color: white;
+	font-size: 19px;
+	color: #000;
 }
 
 .carrousel
@@ -123,7 +134,7 @@ h2
 
 	font-family: "Alex-Brush";
 	color:rgb(254,134,120);
-	font-size: 55px;
+	font-size: 46px;
 
 }
 
@@ -140,8 +151,9 @@ h2
 	margin-left: 20px;
 	display:block;
 	width: 600px;
-	Padding:5px;
-	color:black
+	padding:5px;
+	color:black;
+	margin-top: 0;
 }
 
 .texte_concept a
@@ -174,9 +186,9 @@ p
 
 #menu /* Ensemble du menu */
 {		
-		width:469px;
+		width:900px;
 		font-weight : bold; /* on met le texte en gras */
-        font-family: "Open-sans-light";
+        font-family: "Peignot";
         font-size : 16px; /* hauteur du texte : 12 pixels */
 }
 
@@ -185,20 +197,11 @@ p
 {
         display : block; /* on change le type d'élément, les liens deviennent des balises de type block */
         padding : 0; /* aucune marge intérieure */
-        background : rgb(183,183,183); /* couleur de fond */        
-        color : #fff; /* couleur du texte */
+        color : #000; /* couleur du texte */
         text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
-        width : 115px; /* largeur */
+        width : 95px; /* largeur */
 }
-#menu li ul li a /* Contenu des listes */
-{
-        display : block; /* on change le type d'élément, les liens deviennent des balises de type block */
-        padding : 0; /* aucune marge intérieure */
-        background : rgb(183,183,183); /* couleur de fond */        
-        color : #fff; /* couleur du texte */
-        text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
-        width : 115px; /* largeur */
-		}
+
 #menu li /* Elements des listes */      
 { 
         float:right;
@@ -215,7 +218,7 @@ html>body #menu li
 #menu li ul /* Sous-listes */
 { 
         position: absolute; /* Position absolue */
-        width: 115px; /* Largeur des sous-listes */
+        width: 150px; /* Largeur des sous-listes */
         left: -999em; /* Hop, on envoie loin du champ de vision */
 		
 }
@@ -250,8 +253,8 @@ html>body #menu li ul ul
 
 #menu a:hover /* Lorsque la souris passe sur un des liens */    
 {
-        color: #000; /* On passe le texte en noir... */
-        background: #fff; /* ... et au contraire, le fond en blanc */
+     /*text-decoration: underline;*/
+     border-bottom: 1px solid black;
 }
 
 #menu li:hover ul ul, #menu li.sfhover ul ul /* Sous-sous-listes lorsque la souris passe sur un élément de liste */
@@ -321,7 +324,6 @@ h3+p{
 	display:inline-block;
 	top:100px;
 	margin-bottom: 0px;
-	margin-left: 30px;
 	text-decoration:underline;
 }
 
@@ -342,13 +344,10 @@ h3+p{
 
 .description
 {
-
-	float:right;
 	display:block;
 	margin-right: 30px;
 	position:relative;
 	text-align: justify;
-	width:560px;
 	height:370px;
 
 }
@@ -356,27 +355,11 @@ h3+p{
 
 .Chaussure_photo
  {
-
- 	float:left;
- 	width:50%;
+ 	width:495px;
  	height: auto;
- 	margin-left: 30px;
- 	position: relative;
  	top:10px;
- 	opacity: 75%;
  	z-index: 1;
  }
-
-.nom_prod
-{
-	
-	position: relative;
-	top:160px;
-	left: 520px;
-	color:rgb(150,150,150);
-	z-index: 2;
-
-}
 
 h4
 {
@@ -390,10 +373,12 @@ h4
 #photo_chaire 
 {
 	list-style:none;
-	border: 1px solid rgb(176,176,176);	
+	border: 1px solid rgb(176,176,176);
+	width: 100%;
 }
 
 .profil-intro{
+	margin-top: 65px;
 	text-align: center;
 }
 
@@ -417,7 +402,7 @@ h4
 .conseillers li
 {
 	display:inline-block;
-	width: 150px;
+	width: 160px;
 	text-decoration: bold;
 	margin:30px;
 	text-align:center;

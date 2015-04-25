@@ -1,6 +1,5 @@
 <?php include("includes/header.php") ?>
-
-	<h1 class="nom_prod"> Les chaussures </br> à Potliste </h1>
+	
 	<img src="image/chaussure1_grand.jpg" alt="chaussure_1"class="Chaussure_photo"/>
 	<aside class="description">
 		<h4>Chaussures festives pour adeptes de nuits endiablées</h4>

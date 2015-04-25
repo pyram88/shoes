@@ -1,12 +1,8 @@
 <?php include("includes/header.php") ?>
 
-<div>
+<div class="profil-intro">
 	<h2 class="ton_profil"> Ton profil</h2>
-	<ul class="liste_profil">
-		<li>
-			<a href="http://www.chaireeee.eu/"><img id="photo_chaire" src="image/chaire2.png" alt="chaire"/></a>
-		</li>
-	</ul>
+	<a target="_bank" href="http://www.chaireeee.eu/"><img id="photo_chaire" src="image/chaire2.png" alt="chaire"/></a>
 </div>
 <div>
 	<h3 class="titre_profil">Mon compte </h3>
@@ -31,10 +27,10 @@
 
 <h3 class="titre_profil">Mes conseillers</h3>
 <ul class="conseillers">
-	<li><img src="image/EY.png" alt="conseil1"/><strong>EY</strong></br> <em>"La simplicité fait souvent l'élégance"</em></li>
+	<li class="align-top"><img src="image/EY.png" alt="conseil1"/><strong>EY</strong></br> <em>"La simplicité fait souvent l'élégance"</em></li>
 	<li><img src="image/JPR.jpg" alt="conseil2"/><strong>J-P.Raffarin</strong></br><em>"Moi mon dada, ce sont les couleurs flashy"</em></li>
-	<li><img src="image/BNP.jpg" alt="conseil3"/><strong>BNP Paribas </strong></br><em>"Le style, c'est avant tout une question de confiance en soi"</li>
-	<li><img src="image/GR.jpg" alt="conseil3"/><strong>Guy Roux</strong> </br><em> "Le legging c'est juste PAS possible!"</em></li> 
+	<li><img src="image/BNP.jpg" alt="conseil3"/><strong>BNP Paribas </strong></br><em>"J'abuse beaucoup des positions relatives"</li>
+	<li class="align-top"><img src="image/GR.jpg" alt="conseil3"/><strong>Guy Roux</strong> </br><em> "Le legging c'est juste PAS possible!"</em></li> 
 </ul>
 
 <?php include("includes/footer.php") ?>

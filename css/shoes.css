@@ -268,7 +268,6 @@ html>body #menu li ul ul
 
 .qui,.ton_profil
 {
-	width: 75%;position: relative;left: 50%;margin: 0 0 0 -37.5%;
 	top:120px;
 	text-align:center;
 	color:rgb(254,134,120);
@@ -276,20 +275,8 @@ html>body #menu li ul ul
 	font-family:"Alex-Brush";
 }
 
-.qui,.ton_profil
-{
-	width: 75%;position: relative;left: 50%;margin: 0 0 0 -37.5%;
-	top:120px;
-	text-align:center;
-	color:rgb(254,134,120);
-	font-size: 55px;
-	font-family:"Alex-Brush";
-}	
-
 h3
 {
-	top:450px;
-	position: relative;
 	color:rgb(176,176,176);
 	font-size: 40px;
 	font-family:"Alex-Brush";
@@ -333,8 +320,8 @@ h3+p{
 	display: block;
 	display:inline-block;
 	top:100px;
-	Margin-bottom: 10px;
-	Margin-left: 30px;
+	margin-bottom: 0px;
+	margin-left: 30px;
 	text-decoration:underline;
 }
 
@@ -347,10 +334,8 @@ h3+p{
 	
 	display: block;
 	line-height:30px;
-	top:100px;
-	Margin-bottom: 20px;
+	margin-bottom: 0;
 	font-size:14px;
-	position:relative;
 	font-family:"Open-sans-light"
 	
 }
@@ -405,10 +390,11 @@ h4
 #photo_chaire 
 {
 	list-style:none;
-	border: 1px solid rgb(176,176,176);
-	width: 75%;position: relative;left: 50%;top:120px;margin: 0 0 0 -37.5%;	
+	border: 1px solid rgb(176,176,176);	
+}
 
-	
+.profil-intro{
+	text-align: center;
 }
 
 #citation
@@ -430,13 +416,22 @@ h4
 	
 .conseillers li
 {
-
-display:inline-block;
-width: 200px;
-text-decoration: bold;
-margin:30px;
-text-align:center;
+	display:inline-block;
+	width: 150px;
+	text-decoration: bold;
+	margin:30px;
+	text-align:center;
+	
 }
+
+.align-top{
+	vertical-align: top;
+}
+
+.align-bottom{
+	vertical-align: bottom;
+}
+
 .conseillers
 {
 

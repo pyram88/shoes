@@ -1,6 +1,6 @@
 body
 {
-	background-image: url("Background3.jpg");
+	background-image: url("../image/Background3.jpg");
 	 
 	background-repeat: repeat-x;
 
@@ -9,15 +9,15 @@ body
 @font-face 
 {
 	font-family: "Alex-Brush";
-	src: url("AlexBrush-Regular.ttf");
+	src: url("../fonts/AlexBrush-Regular.ttf");
 }
 
 @font-face 
 {
 	font-family: "Open-sans";
-	src: url("OpenSans-Regular.ttf");
+	src: url("../fonts/OpenSans-Regular.ttf");
 	font-family:"Open-sans-light";
-	src: url("OpenSans-Light.ttf");
+	src: url("../fonts/OpenSans-Light.ttf");
 	}
 	
 #main

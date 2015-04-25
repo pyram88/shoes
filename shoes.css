@@ -1,0 +1,454 @@
+body
+{
+	background-image: url("Background3.jpg");
+	 
+	background-repeat: repeat-x;
+
+}
+
+@font-face 
+{
+	font-family: "Alex-Brush";
+	src: url("AlexBrush-Regular.ttf");
+}
+
+@font-face 
+{
+	font-family: "Open-sans";
+	src: url("OpenSans-Regular.ttf");
+	font-family:"Open-sans-light";
+	src: url("OpenSans-Light.ttf");
+	}
+	
+#main
+{
+	width:100%;
+	margin:auto;
+	
+}
+
+h1
+{
+	width: 75%;position: relative;left: 50%;margin: 0 0 0 -37.5%;
+	top:140px;
+	text-align:center;
+	color:rgb(254,134,120);
+	font-size: 58px;
+	font-family:"Alex-Brush";
+}
+
+#sous-titre
+{
+	width: 75%;position: relative;left: 50%;margin: 0 0 0 -37.5%;
+	text-align:center;
+	font-family: "Alex-Brush";
+	top:120px;
+	font-size: 17px;
+	color: white;
+}
+
+
+.carrousel
+{	
+	postition:relative;
+	height:192px;
+	    /*CSS3 keyframes animation*/
+}
+
+.wrap
+{				clear:right;
+				overflow: hidden;
+  				position: relative;
+				top:150px;
+  				height: 200px;
+  				width: 800px;
+				background-color:white;
+				border-bottom: 1.5px solid black;
+				border-top: 1.5px solid black;
+				margin:auto;
+}
+
+.carrousel li
+{
+	display:block;
+	position:relative;
+	width:150px;
+	height:150px;
+	margin:15px;
+	
+	display:inline-block;
+	vertical-align: center;
+
+}
+
+.carrousel li img:hover
+{
+	-webkit-transform: scale(1.5);
+		-moz-transform: scale(1.5);
+		 -ms-transform: scale(1.5);
+		  -o-transform: scale(1.5);
+			 transform: scale(1.5);
+}
+
+.carrousel li img{
+-webkit-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+    -moz-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+     -ms-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+      -o-transition: all .5s cubic-bezier( .6, 2, .4, 1);
+         transition: all .5s cubic-bezier( .6, 2, .4, 1);
+}
+
+.carrousel:hover li img:not(:hover){
+-webkit-filter: grayscale(1) blur(5px);
+    -moz-filter: grayscale(1) blur(5px);
+     -ms-filter: grayscale(1) blur(5px);
+      -o-filter: grayscale(1) blur(5px);
+         filter: grayscale(1) blur(5px);
+}
+
+h2
+{
+
+	font-family: "Alex-Brush";
+	color:rgb(254,134,120);
+	font-size: 55px;
+
+}
+
+
+.concept
+{
+	position:relative;
+	top:190px;
+	text-align:left;
+	margin-left: 20px;
+}
+
+.texte_concept
+{
+	position: relative;
+	top:90px;
+	text-align:justify;
+	margin-left: 20px;
+	display:block;
+	width: 600px;
+	Padding:5px;
+	color:black
+}
+
+.texte_concept a
+{
+	
+	text-decoration : none;
+	color: rgb(254,134,120);
+	text-decoration:bold;
+}
+
+
+p
+{	
+	font-size:15px;
+	font-family:"Open-sans-light";
+	color: black;
+	text-align: left;
+}
+
+
+
+#menu, #menu ul /* Liste */     
+{	
+        padding :0; /* pas de marge intérieure */
+        margin : 0; /* ni extérieure */
+        list-style : none; /* on supprime le style par défaut de la liste */
+        line-height : 30px; /* on définit une hauteur pour chaque élément */
+        text-align : center; /* on centre le texte qui se trouve dans la liste */
+}
+
+#menu /* Ensemble du menu */
+{		width: 702px;position: relative;left: 60%;margin: 0 0 0 -37.5%;
+		top:58px;
+		font-weight : bold; /* on met le texte en gras */
+        font-family: "Open-sans-light";
+        font-size : 16px; /* hauteur du texte : 12 pixels */
+}
+
+
+#menu a /* Contenu des listes */
+{
+        display : block; /* on change le type d'élément, les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background : rgb(183,183,183); /* couleur de fond */        
+        color : #fff; /* couleur du texte */
+        text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
+        width : 115px; /* largeur */
+}
+#menu li ul li a /* Contenu des listes */
+{
+        display : block; /* on change le type d'élément, les liens deviennent des balises de type block */
+        padding : 0; /* aucune marge intérieure */
+        background : rgb(183,183,183); /* couleur de fond */        
+        color : #fff; /* couleur du texte */
+        text-decoration : none; /* on supprime le style par défaut des liens (la plupart du temps = souligné) */
+        width : 115px; /* largeur */
+		}
+#menu li /* Elements des listes */      
+{ 
+        float:right;
+        /* pour IE qui ne reconnaît pas "transparent" */
+        border-right : 2px solid #fff; /* on met une bordure blanche à droite de chaque élément */
+}
+
+/* IE ne reconnaissant pas le sélecteur ">" */
+html>body #menu li
+{
+        border-right: 2px solid transparent ; /* on met une bordure transparente à droite de chaque élément */
+}
+
+#menu li ul /* Sous-listes */
+{ 
+        position: absolute; /* Position absolue */
+        width: 115px; /* Largeur des sous-listes */
+        left: -999em; /* Hop, on envoie loin du champ de vision */
+		
+}
+
+
+#menu li ul li /* Éléments de sous-listes */
+{
+        /* pour IE qui ne reconnaît pas "transparent" (comme précédemment) */
+        font-size:10px;
+		text-align:center;
+		border-top : 1px solid #fff; /* on met une bordure blanche en haut de chaque élément d'une sous liste */
+}
+
+/* IE ne reconnaissant pas le sélecteur ">" */
+html>body #menu li ul li                
+{
+        border-top : 1px solid transparent; /* on met une bordure transparente en haut de chaque élément */
+}
+
+#menu li ul ul 
+{
+        margin    : -22px 0 0 10px ; /* On décale les sous-sous-listes pour qu'elles ne soient pas au dessus des sous-listes */ 
+        /* pour IE qui ne reconnaît pas "transparent" (comme précédemment) */
+        border-left     : 1px solid #fff ; /* Petite bordure à gauche pour ne pas coller ... */      
+}
+
+/* IE ne reconnaissant pas le sélecteur ">" ... je me répète ;-) */
+html>body #menu li ul ul                
+{
+        border-left     : 1px solid transparent ; /* on met une bordure transparente sur la gauche de chaque élément */
+}
+
+#menu a:hover /* Lorsque la souris passe sur un des liens */    
+{
+        color: #000; /* On passe le texte en noir... */
+        background: #fff; /* ... et au contraire, le fond en blanc */
+}
+
+#menu li:hover ul ul, #menu li.sfhover ul ul /* Sous-sous-listes lorsque la souris passe sur un élément de liste */
+{
+        left: -999em; /* On expédie les sous-sous-listes hors du champ de vision */
+}
+
+#menu li:hover ul, #menu li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul  /* Sous-listes lorsque la souris passe sur un élément de liste ET sous-sous-lites lorsque la souris passe sur un élément de sous-liste */
+{
+        left: auto; /* Repositionnement normal */
+        min-height: 0; /* Corrige un bug sous IE */
+}
+
+
+.qui,.ton_profil
+{
+	width: 75%;position: relative;left: 50%;margin: 0 0 0 -37.5%;
+	top:120px;
+	text-align:center;
+	color:rgb(254,134,120);
+	font-size: 55px;
+	font-family:"Alex-Brush";
+}
+
+.qui,.ton_profil
+{
+	width: 75%;position: relative;left: 50%;margin: 0 0 0 -37.5%;
+	top:120px;
+	text-align:center;
+	color:rgb(254,134,120);
+	font-size: 55px;
+	font-family:"Alex-Brush";
+}	
+
+h3
+{
+	top:450px;
+	position: relative;
+	color:rgb(176,176,176);
+	font-size: 40px;
+	font-family:"Alex-Brush";
+}
+.PL_chat
+{
+	top:250px;
+	position: relative;
+	color:rgb(176,176,176);
+	font-size: 40px;
+	font-family:"Alex-Brush";
+}
+h3+p{
+	margin: 5px;
+	position: relative;
+	top:400px;
+	color:rgb(254,134,120);
+	font-size: 20px;
+	font-family:"Open-sans-light";
+	font-style:italic;
+}
+.PL_chat_texte
+{
+	margin: 5px;
+	position: relative;
+	top:210px;
+	color:rgb(254,134,120);
+	font-size: 20px;
+	font-family:"Open-sans-light";
+	font-style:italic;
+}
+#PL{
+	margin:5%;
+	float:left;
+	position:relative;
+	top:100px;
+}
+
+.titre_profil
+{	
+	display: block;
+	display:inline-block;
+	top:100px;
+	Margin-bottom: 10px;
+	Margin-left: 30px;
+	text-decoration:underline;
+}
+
+.liste_profil{
+	list-style: none;
+}
+
+.titre_profil + .liste_profil, .titre_profil + .conseillers
+{
+	
+	display: block;
+	line-height:30px;
+	top:100px;
+	Margin-bottom: 20px;
+	font-size:14px;
+	position:relative;
+	font-family:"Open-sans-light"
+	
+}
+
+.description
+{
+
+	float:right;
+	display:block;
+	margin-right: 30px;
+	position:relative;
+	text-align: justify;
+	width:560px;
+	height:370px;
+
+}
+
+
+.Chaussure_photo
+ {
+
+ 	float:left;
+ 	width:50%;
+ 	height: auto;
+ 	margin-left: 30px;
+ 	position: relative;
+ 	top:10px;
+ 	opacity: 75%;
+ 	z-index: 1;
+ }
+
+.nom_prod
+{
+	
+	position: relative;
+	top:160px;
+	left: 520px;
+	color:rgb(150,150,150);
+	z-index: 2;
+
+}
+
+h4
+{
+
+	font-family: "Alex-Brush";
+	font-size: 25px;
+	color: rgb(254,134,120);
+
+}
+
+#photo_chaire 
+{
+	list-style:none;
+	border: 1px solid rgb(176,176,176);
+	width: 75%;position: relative;left: 50%;top:120px;margin: 0 0 0 -37.5%;	
+
+	
+}
+
+#citation
+{
+	position:relative;
+	top:-25px;
+	text-align:center;
+	font-family:"Open-sans-light";
+	font-size: 18px;
+	color: black;
+	}
+	
+#auteur
+{
+	position:relative;
+	top:-25px;
+	text-align:center;
+	font-family:"Open-sans-light";
+	font-size: 18px;
+	color: black;
+	}
+	
+.conseillers li
+{
+
+display:inline-block;
+width: 200px;
+text-decoration: bold;
+margin:30px;
+text-align:center;
+}
+.conseillers
+{
+
+display:block;
+width:100%;
+height:200px;
+margin: auto;
+}
+.conseillers li strong
+{
+color:rgb(254,134,120);
+font-size:28px;
+font-family:"Alex-Brush";
+}
+
+.conseillers li a
+{list-style:none;
+color:white;
+
+}

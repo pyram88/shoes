@@ -1,17 +1,15 @@
 <?php include("includes/header.php") ?>
 
-<div class="wrap">
-
-	<ul class="carrousel">
-		<li><a href="page_produit.php"><img class="image" src="image/image1.png" alt="image1"/></a></li>
-		<li><img class="image" src="image/image2.jpg" alt="image2"/></li>
-		<li><img class="image" src="image/image3.jpg" alt="image3"/></li>
-		<li><img class="image" src="image/image4.jpg" alt="image4"/></li>
-		<li><img class="image" src="image/image5.jpg" alt="image5"/></li>
-		<li><img class="image" src="image/image1.png" alt="image6"/></li>
-	</ul>
-
-</div>	
+<div class="background-wrap">
+	<div class="wrap">
+		<ul class="carrousel">
+			<li><a href="page_produit.php?id=1"><img class="image" src="image/image1.jpg" alt="image1"/></a></li>
+			<li><a href="page_produit.php?id=2"><img class="image" src="image/image2.jpg" alt="image2"/></a></li>
+			<li><a href="page_produit.php?id=3"><img class="image" src="image/image3.jpg" alt="image3"/></a></li>
+			<li><a href="page_produit.php?id=4"><img class="image" src="image/image4.jpg" alt="image4"/></a></li>
+		</ul>
+	</div>
+</div>
 
 <div id="citation">
 	"Voilà l'homme tout entier, s'en prenant à sa chaussure alors que c'est son pied le coupable."

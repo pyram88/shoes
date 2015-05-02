@@ -42,19 +42,12 @@ body
 
 nav{
 	/*width:469px;*/
-	margin-top: -45px;
+	margin-top: -30px;
 }
 
-
-#title1
-{
-	width:350px;
-	margin-top: 30px;
-}
 
 #title1 h1
 {
-	text-align:center;
 	margin-bottom: 0;
 	color:rgb(254,134,120);
 	font-size: 65px;
@@ -63,42 +56,32 @@ nav{
 
 #sous-titre
 {
-	text-align:center;
-	margin-top:-15px;
+	margin:-15px 0 0 22px;
 	font-family: "Alex-Brush";
 	font-size: 19px;
 	color: #000;
 }
-
-.carrousel
-{	
-	postition:relative;
-	height:192px;
-	    /*CSS3 keyframes animation*/
+.background-wrap
+{
+	background-image: url('../image/stripes.png');
+	padding:15px;
 }
 
 .wrap
 {				
 	clear:right;
 	overflow: hidden;
-	position: relative;
 	top:65px;
-	height: 200px;
-	width: 840px;
+	height: 175px;
+	width: 100%;
 	background-color:white;
-	border-bottom: 1.5px solid black;
-	border-top: 1.5px solid black;
 	margin:auto;
 }
 
 .carrousel li
 {
 	display:block;
-	position:relative;
-	width:150px;
-	height:150px;
-	margin:15px;
-	
+	margin-right:52px;
 	display:inline-block;
 	vertical-align: center;
 
@@ -142,15 +125,13 @@ h2
 .concept
 {
 	text-align:left;
-	margin:15px 0 0 23px;
+	margin:35px 0 0 0;
 }
 
 .texte_concept
 {
 	text-align:justify;
-	margin-left: 20px;
 	display:block;
-	width: 600px;
 	padding:5px;
 	color:black;
 	margin-top: 0;
@@ -253,19 +234,7 @@ html>body #menu li ul ul
 
 #menu a:hover /* Lorsque la souris passe sur un des liens */    
 {
-     /*text-decoration: underline;*/
      border-bottom: 1px solid black;
-}
-
-#menu li:hover ul ul, #menu li.sfhover ul ul /* Sous-sous-listes lorsque la souris passe sur un élément de liste */
-{
-        left: -999em; /* On expédie les sous-sous-listes hors du champ de vision */
-}
-
-#menu li:hover ul, #menu li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul  /* Sous-listes lorsque la souris passe sur un élément de liste ET sous-sous-lites lorsque la souris passe sur un élément de sous-liste */
-{
-        left: auto; /* Repositionnement normal */
-        min-height: 0; /* Corrige un bug sous IE */
 }
 
 
@@ -342,6 +311,10 @@ h3+p{
 	
 }
 
+.conseillers img{
+	margin-bottom: 10px;
+}
+
 .description
 {
 	display:block;
@@ -378,13 +351,12 @@ h4
 }
 
 .profil-intro{
-	margin-top: 65px;
 	text-align: center;
 }
 
 #citation
 {
-	margin-top: 80px;
+	margin-top: 15px;
 	text-align:center;
 	font-family:"Open-sans-light";
 	font-size: 18px;
@@ -436,6 +408,153 @@ font-family:"Alex-Brush";
 {list-style:none;
 color:white;
 
+}
+
+.panierProduit{
+	
+	background-color: #FFF;
+}
+
+.background-achat{
+	background-image: url('../image/stripes.png');
+	background-repeat: repeat;
+	padding: 15px;
+}
+
+.panierProduit td:nth-child(2){
+	padding-left: 15px;
+}
+
+.panierProduit td:nth-child(2) form{
+	text-align: center;
+}
+
+
+.pointure{
+	background: rgb(254,134,120);
+	padding: 10px;
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+
+.pointure p{
+	color:#FFF;
+	margin-top:0;
+	text-align:center;
+	font-size: 12px;
+}
+
+.pointure select{
+	padding:10px;
+	width: 85%;
+	text-align: center;
+	background: #FFF;
+	border: 1px solid rgb(176, 176, 176);
+	font-family: "Open-sans-light";
+	font-size: 12px;
+}
+
+.conditions{
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  border-top: 2px solid #ebebeb;
+}
+
+.offert{
+	font-weight: bold;
+	font-size: 30px;
+	font-family: "Peignot";
+}
+
+.livraison{
+	font-family: "Peignot";
+	font-size: 17px;
+}
+
+input[name='addPanier']{
+	width: 85%;
+	padding:15px;
+	background: rgb(254,134,120);
+	color:#FFF;
+	border: none;
+	cursor: pointer;
+	margin: auto;
+	font-family: "Open-sans-light";
+	font-weight: bold;
+	font-size: 16px;
+}
+
+input[name='addPanier']:hover{
+	background-color: #F06A5A;
+}
+
+.title-produit{
+	font-size: 30px;
+	color:#000;
+	display: block;
+	margin: 0 0 15px 26px;
+	font-family: "Peignot";
+}
+
+
+#panier table{
+	width: 100%;
+}
+
+#panier table td{
+	text-align: center;
+	border-bottom: 2px solid #ebebeb;
+	font-family: "Open-sans-light";
+	width: 150px;
+}
+
+#panier table td:nth-child(2)
+{
+	font-weight: bold;
+}
+
+#panier table th{
+	padding-bottom: 30px;
+	border-bottom: 2px solid #ebebeb;
+	font-family: "Open-sans-light";
+}
+
+.merge-header{
+	height:65px;
+}
+
+
+/** ERRORS MESSAGES **/
+.confirm{
+  width: 900px;
+  height: 20px;
+  display: block;
+  padding: 10px 0 10px 0;
+  border-top: 1px solid #65D287;
+  color: #65D287;
+  text-align: center;
+  border-bottom: 1px solid #65D287;
+  margin-bottom: 10px;
+  font-family: "Open-sans-light";
+  font-weight: bold;
+}
+
+.error{
+  width: 900px;
+  height: 20px;
+  display: block;
+  padding: 10px 0 10px 0;
+  border-top: 1px solid #b90504;
+  color: #b90504;
+  text-align: center;
+  border-bottom: 1px solid #b90504;
+  margin-bottom: 10px;
+  font-family: "Open-sans-light";
+  font-weight: bold;
 }
 
 footer{

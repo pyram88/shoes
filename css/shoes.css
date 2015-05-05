@@ -151,7 +151,8 @@ p
 	font-size:15px;
 	font-family:"Open-sans-light";
 	color: black;
-	text-align: left;
+	text-align: justify;
+
 }
 
 
@@ -318,11 +319,8 @@ h3+p{
 .description
 {
 	display:block;
-	margin-right: 30px;
 	position:relative;
 	text-align: justify;
-	height:370px;
-
 }
 
 
@@ -560,4 +558,32 @@ input[name='addPanier']:hover{
 footer{
 	display: block;
 	height: 50px;
+}
+
+#plus, #moins
+{
+
+  font-family: "Open-sans-light";
+
+}
+
+#tab_plus_moins
+{
+  color:rgb(254,134,120);
+  font-size: 30px;
+  font-family: "Alex-Brush";
+  font-weight: bold;
+}
+
+
+
+#plus_moins table
+{
+	border: 1px solid black;
+}
+
+#plus_moins table ul
+{
+
+	margin-left: 30px;
 }

@@ -3,7 +3,7 @@
 			<tr>
 				<td width="50%"><img src="image/chaussure1_grand.jpg" alt="chaussure_1"class="Chaussure_photo"/></td>
 				<td width="50%">
-					<span class="title-produit">Basket "basket"</span>				
+					<span class="title-produit">Basket de "basket"</span>				
 					<form action="" method="post" >
 						<div class="pointure">
 							<p>
@@ -20,9 +20,9 @@
 						</div>
 						<br/>
 						<div class="conditions">
-							<span class="offert">Offert</span>
+							<span class="offert">Pas à vendre</span>
 							<br/>
-							<span class="livraison">Livraison à l'ESCP sous 5 minutes</span>
+							<span class="livraison">Visibles à l'ESCP sur demande</span>
 						</div>
 						<input type="hidden" name="nomProduit" value="Basket 'basket'" />
 						<input type="hidden" name="refProduit" value="<?php echo $_GET['id'] ?>" />
@@ -33,41 +33,46 @@
 		</table>
 	</div>
 	<aside class="description">
-		<h4>Chaussures festives pour adeptes de nuits endiablées</h4>
-		<p>ÇA Y EST!</br>Tu l'as fait.Oui, tu es enfin arrivée en école de commerce, et puis pas nimporte laquelle, puisque tu es à l'ESCP.</br>
-			Te voilà donc partie la fleur au fusil, les cheveux au vent, dehambulant dans ce lieux magique dont tu as toujours rêvé.</br> 
-			Tu traverses sans (trop) d'encombres le WEI, les cours, lorsque soudain, prise d'un élan d'ambition tu décides de lister pour la JE. 
-			Te voilà donc à préparer l'équivalent de 3000 roulés-saucisses pour 600 personnes prêtes à débarquer, plus ssoifées que jamais.</br> 
-			"Ok, l'acool c'est bon, le taureau mécanique est en place, le mur en carton est prêt, bref, c'est parti pour une nuit qui s'annonce mémorable".</br> 
-			Et quelle nuit! Une soirée dont les gens te parlent encore aujourd'hui en disant "Vous aviez mis un canon à neige dans la cour!" 
-			Que de souvenirs que l'on garde et que l'on partage avec ses anciens compagnons d'aventure...</br> C'est souvent en repensant à ce moment que 
-			je pense à mes chaussures, car oui, elles ont tout vécu: des kilomètres faits jusqu'à METRO au démarchage de sponsors, TOUT.</br>
-			Ah oui, car au passage elles ont aussi pris l'huile froides des fritteuses au moment de ranger ce qui s'apparentait au vestiges d'une nuit inoubliable.
+		<h4>Les chaussures d'une vie</h4>
+		<p>Ces chaussures, c'est un peu comme une madeleine de Proust pour moi. Dès que je les vois, j'ai comme un flot de souvenirs qui m'envahit. Je revois alors mes débuts à 7 ans</br>
+		à essayer de mettre un ballon dans le panier. Je revois Sophie, Charlène, Romane, Laulau, Elo, Océ, Lohana, Delphine, Camille, Chrissy, Lana, Agnès, Auré, Ten, Amé, Karen, Soléane, Calipso, Laurie, et toutes les autres qui ont été ma famille pendant plus de 15ans.</br>
+		Je revois les coachs, Jean, Choupi, Frank, Sylvain, Emilie. Je me souviens de nos déplacements en championnat de France, de ces aller-retours entre Fréjus et la région lyonnaise, de ces devoirs que l'on faisaient dans le bus ou à l'hôtel.</br>
+		Je me souviens de la douleur, des larmes versées après les défaites, je me rappelle des discours d'avant-match, je me rapelle des matchs de merde, des meilleurs, de ces matchs qui aujourd'hui encore me donnent la chair de poule.</br>
+		Je me rapelle les parents qui encourageaient, des copains qui venaient aux matchs le dimanche. J'oublie pas les kilomètres parcourus, les quatre entrainements par semaine à 13ans. Et puis je me souviens des sélections en équipe du var et PACA.</br>
+		Les retrouvailles aux vacances, les stages d'entraînement à Cavalaire et au CREPS de Bouloris. Je me rappelle de Faverge et du TIL. Je pense toujours à Laure qui nous manque à tous. Je repense à la rage et l'ambition que j'avais.</br>
+		Je me souviens d'écouter "Demain c'est loin" avant les matchs. Je me souviens du flunch d'avant match ou de la fête du boudin avant le match à Saint Jean de Muzol.</br>
+		Je nous revois grandir ensemble, comme une famille, je me souviens de nos envies, de nos rêves. Je me rends compte que l'on a bien dévié de ces derniers. Je me rappelle notre voyage aux USA, en Espagne.</br>
+		Je me rappelle le numéro 8, je me souviens le rituel d'avant match... Je me souviens de l'envie, de quelqu'un qui tombe et qui se relève toujours.</br>
+		Je revois les chaussures trouées, les chaussures "porte-bonheur", celles qui ont évolué au fil du temps mais qui ne constituent qu'une seule et même histoire.
+		
+		
 		</p>
 	</aside>
 
 
-	<table width="100%">
-		<thead>
-			<th width="50%">Les plus</th>
-			<th width="50%">Les moins</th>
-		</thead>
-		<tbody>
-			<tr>
-				<td>
-					<!-- Les plus -->
-					<ul>
-						<li>plus 1</li>
-						<li>plus 2</li>
-					</ul>
-				</td>
-				<td>
-					<!-- Les moins -->
-					<ul>
-						<li>moins 1</li>
-						<li>moins 2</li>
-					</ul>
-				</td>
-			</tr>
-		</tbody>
-	</table>
+	<div id="plus_moins">
+		<table width="100%">
+			<thead id="tab_plus_moins">
+				<th width="50%">Les plus</th>
+				<th width="50%">Les moins</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td id="tab_plus">
+						<!-- Les plus -->
+						<ul id = "plus">
+							<li>Effet svelte</li>
+							<li>Pointe anti-aggression</li>
+						</ul>
+					</td>
+					<td>
+						<!-- Les moins -->
+						<ul id="moins">
+							<li>Passer de 1m77 à 1m90 en 1 seconde</li>
+							<li>Doigts de pieds en sang</li>
+						</ul>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>

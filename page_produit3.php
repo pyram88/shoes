@@ -47,27 +47,29 @@
 	</aside>
 
 
-	<table width="100%">
-		<thead>
-			<th width="50%">Les plus</th>
-			<th width="50%">Les moins</th>
-		</thead>
-		<tbody>
-			<tr>
-				<td>
-					<!-- Les plus -->
-					<ul>
-						<li>plus 1</li>
-						<li>plus 2</li>
-					</ul>
-				</td>
-				<td>
-					<!-- Les moins -->
-					<ul>
-						<li>moins 1</li>
-						<li>moins 2</li>
-					</ul>
-				</td>
-			</tr>
-		</tbody>
-	</table>
+	<div id="plus_moins">
+		<table width="100%">
+			<thead id="tab_plus_moins">
+				<th width="50%">Les plus</th>
+				<th width="50%">Les moins</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td id="tab_plus">
+						<!-- Les plus -->
+						<ul id = "plus">
+							<li>Effet svelte</li>
+							<li>Pointe anti-aggression</li>
+						</ul>
+					</td>
+					<td>
+						<!-- Les moins -->
+						<ul id="moins">
+							<li>Passer de 1m77 à 1m90 en 1 seconde</li>
+							<li>Doigts de pieds en sang</li>
+						</ul>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>

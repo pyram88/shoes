@@ -1,9 +1,9 @@
-<div class="background-achat">
+s<div class="background-achat">
 		<table class="panierProduit">
 			<tr>
 				<td width="50%"><img src="image/chaussure1_grand.jpg" alt="chaussure_1"class="Chaussure_photo"/></td>
 				<td width="50%">
-					<span class="title-produit">Escarpin "dead feet"</span>				
+					<span class="title-produit">Escarpin "dead feet"</span>
 					<form action="" method="post" >
 						<div class="pointure">
 							<p>
@@ -13,7 +13,7 @@
 							</p>
 							<select name="pointure">
 							<option value="0">Choisissez votre taille</option>
-							<?php for($i = 36; $i <= 42; $i++): ?>	
+							<?php for($i = 36; $i <= 42; $i++): ?>
 								<option value="<?php echo $i ?>"><?php echo $i ?></option>
 							<?php endfor; ?>
 							</select>
@@ -27,22 +27,27 @@
 						<input type="hidden" name="nomProduit" value="Escarpin 'dead feet'" />
 						<input type="hidden" name="refProduit" value="<?php echo $_GET['id'] ?>" />
 						<input type="submit" name="addPanier" value="Ajouter au panier" />
-					</form>	
+					</form>
 				</td>
 			</tr>
 		</table>
 	</div>
 	<aside class="description">
-		<h4>Chaussures festives pour adeptes de nuits endiablées</h4>
-		<p>ÇA Y EST!</br>Tu l'as fait.Oui, tu es enfin arrivée en école de commerce, et puis pas nimporte laquelle, puisque tu es à l'ESCP.</br>
-			Te voilà donc partie la fleur au fusil, les cheveux au vent, dehambulant dans ce lieux magique dont tu as toujours rêvé.</br> 
-			Tu traverses sans (trop) d'encombres le WEI, les cours, lorsque soudain, prise d'un élan d'ambition tu décides de lister pour la JE. 
-			Te voilà donc à préparer l'équivalent de 3000 roulés-saucisses pour 600 personnes prêtes à débarquer, plus ssoifées que jamais.</br> 
-			"Ok, l'acool c'est bon, le taureau mécanique est en place, le mur en carton est prêt, bref, c'est parti pour une nuit qui s'annonce mémorable".</br> 
-			Et quelle nuit! Une soirée dont les gens te parlent encore aujourd'hui en disant "Vous aviez mis un canon à neige dans la cour!" 
-			Que de souvenirs que l'on garde et que l'on partage avec ses anciens compagnons d'aventure...</br> C'est souvent en repensant à ce moment que 
-			je pense à mes chaussures, car oui, elles ont tout vécu: des kilomètres faits jusqu'à METRO au démarchage de sponsors, TOUT.</br>
-			Ah oui, car au passage elles ont aussi pris l'huile froides des fritteuses au moment de ranger ce qui s'apparentait au vestiges d'une nuit inoubliable.
+		<h4>Ou l'application du conseil "il faut souffrir pour être belle"</h4>
+		<p>"Marie quand même c'est bien beau que tu t'exprimes stylistiquement parlant, mais quand même, après le garçon manqué, la gothique et le look hippie, tu ne penses pas que tu pourrais faire un effort pour être plus féminine?" déclara ma mère</br>
+			J'ai dès lors compris avec effroi que mon trépas était proche et que l'aube d'une nouvelle époque approchait (autrement dit, j'allais prendre cher).</br>
+			Ma mère se tourna dès lors d'un pas assuré, une boîte à la main, le regard vif et rond (un peu comme un bébé <a href="http://fr.cdn.v5.futura-sciences.com/builds/images/thumbs/2/241584ded7_hibou_bebe.jpg">chouette</a> finalement).</br>
+			Elle avait l'air si ravie, si fière que son enfant s'élève au rang des femmes parmi les femmes. C'était fort, digne un rite initiatique.
+			Je m'approchai finalement de la boîte en question, ma triste Pandore, sombre objet de mes maux à venir. Quelle ne fut pas ma stupeur en découvrant cet objet, pourtant si beau et pourtant si froid.</br>
+			Il y eu un cri lorsque j'ouvris ce coffret. "NNNNNNNOOOOOONNNNNNNNNNNN, s'il te plait, pas ce petit bout resserré!". Je m'étonnai alors de cette voix inconnue, que je n'avais jamais entendue</br>
+			et cherchai alors à en identifier la source. C'est alors qu'en baissant la tête, j'aperçu ces petits être difformes me parler, petits être autrement connus sous le nom d'orteils.</br>
+			"Mais tu vois bien qu'on est des pieds grecs, puis bon on est plutôt gros et longs, tu fais quand même du 41, ce pas pour toi, mieux vaut des Crocs à ce niveau là" me dirent-ils, paniqués.</br>
+			N'écoutant alors que mon courage, et non ces petits être grognons, j'enfilai ces délicates chaussures, qui eurent un effet redoutable. "Ouah, mes poteaux télégraphiques ressemblent enfin à des jambes!" lançai-je en direction de ma mère. </br>
+			Mais la stupeur fut de courte durée, car une autre épreuve m'attendait. Il fallait dès lors arriver à marcher du haut de ces échasses. Sur ce coup, j'avais une avance certaine; des centaines d'émissions "Nouveau look pour une nouvelle vie" ainsi que "Les reines du shopping" m'avaient donné une formation théorique certaine</br>
+			J'entendis soudain une voix familière "Ma chérie pour être magnifyyyyyke tu dois marcher comme si il y avait une ligne devant toi! Et va pas me secouer le coco einh ohoh!"</br>
+			Oh ma Christina, déesse entre toutes les déesses, ta force mentale n'a d'égal que ma haine de ces pompes!</p>
+
+
 		</p>
 	</aside>
 
@@ -57,15 +62,15 @@
 				<td>
 					<!-- Les plus -->
 					<ul>
-						<li>plus 1</li>
-						<li>plus 2</li>
+						<li>Effet svelte</li>
+						<li>Pointe anti-aggression</li>
 					</ul>
 				</td>
 				<td>
 					<!-- Les moins -->
 					<ul>
-						<li>moins 1</li>
-						<li>moins 2</li>
+						<li>Passer de 1m77 à 1m90 en 1 seconde</li>
+						<li>Doigts de pieds en sang</li>
 					</ul>
 				</td>
 			</tr>

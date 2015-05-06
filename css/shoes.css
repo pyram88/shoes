@@ -81,7 +81,7 @@ nav{
 .carrousel li
 {
 	display:block;
-	margin-right:52px;
+	margin-right:54px;
 	display:inline-block;
 	vertical-align: center;
 
@@ -152,7 +152,8 @@ p
 	font-family:"Open-sans-light";
 	color: black;
 	text-align: justify;
-
+	margin-top: 0px;
+	 margin-bottom: 0px
 }
 
 
@@ -336,8 +337,10 @@ h4
 {
 
 	font-family: "Alex-Brush";
-	font-size: 25px;
+	font-size: 35px;
 	color: rgb(254,134,120);
+	margin-bottom: 0px;
+	margin-top: 40px;
 
 }
 
@@ -564,9 +567,21 @@ footer{
 {
 
   font-family: "Open-sans-light";
+  border: 1px solid rgb(176,176,176);
+  padding: 10px;
+  margin-top: 0px;
+  padding-left: 20px;
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
 
 }
+#plus li, #moins li
+{
 
+	margin-bottom:10px;
+}
 #tab_plus_moins
 {
   color:rgb(254,134,120);
@@ -575,9 +590,19 @@ footer{
   font-weight: bold;
 }
 
+#plus li img, #moins li img
+{
+width:3%;
+margin-right: 5px;
+}
 
+#plus_moins
+{
+background-color: white;
 
-#plus_moins table
+}
+
+#plus_moins table,
 {
 	border: 1px solid black;
 }
@@ -585,5 +610,113 @@ footer{
 #plus_moins table ul
 {
 
-	margin-left: 30px;
+  margin: 5px;
+}
+
+#para_1, #para_3
+{
+
+	font-weight: bold;
+	list-style: none;
+	font-family: "Alex-Brush";
+	font-size: 22px;
+	text-align:right;
+
+}
+
+#acquisition
+{
+
+	background-image: url('../image/stripes.png');
+	background-repeat: repeat;
+	padding: 15px;
+}
+
+.para
+{
+
+background-color: white;
+vertical-align: center;
+}
+
+#para_2,  #para_4
+{
+	font-weight: bold;
+	list-style: none;
+	font-family: "Open-sans-light";
+	text-align: left;
+	font-size: 14px;
+
+
+}
+
+.answer
+{
+	font-weight: bold;
+	text-align: justify;
+	list-style: none;
+	font-family: "Open-sans-light";
+	font-size: 14px;
+
+}
+
+#para_1 li, #para_3 li 
+{
+
+	padding-top: 15px;
+	padding-bottom: 15px;
+	vertical-align: top;
+	text-align:center;
+}
+
+#para_2 li, #para_4 li 
+{
+	vertical-align: top;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+#para_3 li
+{
+
+	padding-bottom: 25px;
+
+}
+
+#tab_fiche th
+{
+  color:rgb(254,134,120);
+  font-size: 35px;
+  font-family: "Alex-Brush";
+  font-weight: bold;
+  text-align: left;
+  margin-top: 30px;
+}
+.titre_tab
+{
+
+	margin-top:50px;
+}
+
+aside p
+{
+	background-color: white;
+	padding: 15px;
+}
+
+#paragraphe
+{
+	border: 1px solid rgb(176,176,176);
+	
+
+}
+
+#tab_plus, #tab_moins
+{
+	border: 1 px solid rgb(176,176,176);
+}
+
+#triche
+{
+	color:white;
 }

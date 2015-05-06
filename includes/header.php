@@ -64,7 +64,7 @@ if(isset($_POST['deletePanier']))
 					</li>	
 
 					<li>
-						<a href="chosetheshoes.php">Accueil</a>
+						<a href="index.php">Accueil</a>
 					</li>
 				</ul>
 				</br>

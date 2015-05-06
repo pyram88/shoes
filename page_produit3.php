@@ -83,7 +83,7 @@
 							<td width="25%">
 								<ul id="para_4">
 									<li><span class="answer">Twerk hability</span></li>
-									<li><img src="image/Lavage.png" alt="lavage"/></li>
+									<li><img src="image/lavage.png" alt="lavage"/></li>
 
 								</ul>
 							</td>

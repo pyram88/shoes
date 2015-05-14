@@ -17,6 +17,17 @@ function deleteProduit(refProduit)
     $('.submit-'+refProduit).trigger('click');
 }
 
+function end(status)
+{
+    $.ajax({
+        method:"POST",
+        url: "end.php",
+        data:{
+            status: status
+        }
+    });
+}
+
 $(document).ready(function() {
     $(".confirm, .error").delay(2000).fadeOut(500);
 });

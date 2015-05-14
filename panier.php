@@ -100,6 +100,8 @@
 				$('.first-content').fadeOut(500, function(){
 					$('.refused').fadeIn(500);
 				});
+
+				end('refused');
 			});
 
 			$('.link_accepted').click(function(e)
@@ -108,6 +110,8 @@
 				$('.first-content').fadeOut(500, function(){
 					$('.accepted').fadeIn(500);
 				});
+
+				end('accepted');
 			});
 		});
 	  

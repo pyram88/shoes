@@ -1,6 +1,8 @@
 <?php
 session_start();
-//$_SESSION['panier'] = array();
+include 'includes/config.php';
+require_once 'swiftmailer/lib/swift_required.php';
+
 
 // Ajout au panier
 if(isset($_POST['addPanier']))
@@ -28,8 +30,44 @@ if(isset($_POST['deletePanier']))
 	}
 }
 
-//print_r($_SESSION['panier']);
-//print_r($_SESSION['flash']);
+// Envoie message contact
+if(isset($_POST['send_message']))
+{
+	if(isset($_POST['nom']) && isset($_POST['email']) && isset($_POST['message']))
+	{
+
+		$message = 'Email : '.$_POST['email'].'<br/>';
+		$message .= 'Nom : '.$_POST['nom'].'<br/><br/>';
+		$message .= $_POST['message'];
+
+
+		$transport = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, "ssl")
+		  ->setUsername(GMAIL_SENDER)
+		  ->setPassword(GMAIL_PASSWORD);
+
+		$mailer = Swift_Mailer::newInstance($transport);
+
+		$message = Swift_Message::newInstance('Nouveau contact')
+		  ->setFrom(array(GMAIL_SENDER))
+		  ->setTo(array(GMAIL_RECIEVER))
+		  ->setBody($_POST['message']);
+
+
+		if(CAN_SEND_EMAIL == true)
+		{
+			if($mailer->send($message)){
+				$_SESSION['flash']['confirm'] = 'Message envoyé avec succès';
+			}else{
+				$_SESSION['flash']['error'] = 'Un problème est survenu';
+			}
+		}
+		else
+		{
+			$_SESSION['flash']['confirm'] = 'Message envoyé avec succès';	
+		}
+	}
+}
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -38,13 +76,8 @@ if(isset($_POST['deletePanier']))
 		<link rel="stylesheet" href="css/shoes.css"/>
 		<script type="text/javascript" src="js/site.js"></script>
 		<title> Choose the Shoes </title>
-		
-
-		<!-- Start WOWSlider.com HEAD section -->
-		<link rel="stylesheet" type="text/css" href="engine1/style.css" />
-		<script type="text/javascript" src="engine1/jquery.js"></script>
-		<!-- End WOWSlider.com HEAD section -->
-
+	
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
 	</head>
 	<body>
 		<div id="main">

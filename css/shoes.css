@@ -626,7 +626,7 @@ color:white;
 	font-size: 17px;
 }
 
-input[name='addPanier']{
+input[name='addPanier'], input[name='send_message']{
 	width: 85%;
 	padding:15px;
 	background: rgb(254,134,120);
@@ -639,7 +639,7 @@ input[name='addPanier']{
 	font-size: 16px;
 }
 
-input[name='addPanier']:hover{
+input[name='addPanier']:hover, input[name='send_message']:hover{
 	background-color: #F06A5A;
 }
 
@@ -888,4 +888,25 @@ aside p
 #triche
 {
 	color:white;
+}
+
+form.contact label{
+	display: block;
+}
+
+form.contact input[type="text"]{
+	margin: 5px 5px 5px 0;
+	height: 20px;
+	width: 200px;
+}
+
+form.contact{
+	width: 500px;
+	margin:auto;
+}
+
+form.contact textarea
+{
+	width: 419px;
+	height: 225px;
 }

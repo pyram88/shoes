@@ -952,6 +952,14 @@ form.contact textarea
 	position: relative;
 }
 
+.accepted, .refused
+{
+	font-family: "Peignot";
+	font-size: 25px;
+	padding: inherit;
+	text-align: center;
+}
+
 #custom-content2
 {
 	background-image: url('../image/stripes.png');
@@ -970,7 +978,12 @@ form.contact textarea
   display: block;
 
 }
-
+.homer
+{
+	display:block;
+	width: 355px;
+	margin:auto;
+}
 #popup-content
 {
 	background:white;

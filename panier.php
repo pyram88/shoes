@@ -59,11 +59,18 @@
 		   		</div>
 
 		   		<div class="accepted" style="display:none">
-		   			MERCI !
+		   			<h1 class="offre_speciale">MERCI !</h1>
+		   			<p id="popup_text">J'espère que l'expérience vous a plu! </br>
+		   			A bientôt!</br></br><p> 
+		   			<img class="homer" src="image/homer.jpg" alt="homer"/>
+
 		   		</div>
 		   			
 		   		<div class="refused" style="display:none">
-		   			SNIF !
+		   			<h1 class="offre_speciale">SNIF SNIF! !</h1>
+		   			<p id="popup_text">Je retourne de ce pas dans ma grotte...</br>
+		   			Bonne journée...</br></br></p>
+		   			<img class="chat" src="image/chat.jpg" alt="cat"/>
 		   		</div>
 		    </div>
 	    </div>

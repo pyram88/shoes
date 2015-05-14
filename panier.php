@@ -8,9 +8,9 @@
 	<?php endif; ?>
 
 	<?php if (isset($_SESSION['panier']) && count($_SESSION['panier']) == 4): ?>
-		<a class="cadeau-enable popup-with-zoom-anim" href="#custom-content2">Cadeau</a>
+		<a class="cadeau-enable popup-with-zoom-anim" href="#custom-content2">Votre cadeau est disponible!</a>
 	<?php else: ?>
-		<a class="cadeau-disable" >Cadeau</a>
+		<a class="cadeau-disable" >Vous n'avez pas encore accès au cadeau!</a>
 	<?php endif; ?>
 
 	<table>

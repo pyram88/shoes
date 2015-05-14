@@ -9,10 +9,17 @@ if(isset($_POST['addPanier']))
 {
 	if(isset($_POST['pointure']) && is_numeric($_POST['pointure'])  && $_POST['pointure'] > 0)
 	{
-		$panier['pointure'] = $_POST['pointure'];
-		$panier['nomProduit'] = $_POST['nomProduit'];
-		$_SESSION['panier'][$_POST['refProduit']] = $panier;
-		$_SESSION['flash']['confirm'] = 'Article ajouté à votre panier';
+		if(isset($_SESSION['panier'][$_POST['refProduit']]))
+		{
+			$_SESSION['flash']['error'] = 'Article déja présent dans votre panier';
+		}
+		else
+		{
+			$panier['pointure'] = $_POST['pointure'];
+			$panier['nomProduit'] = $_POST['nomProduit'];
+			$_SESSION['panier'][$_POST['refProduit']] = $panier;
+			$_SESSION['flash']['confirm'] = 'Article ajouté à votre panier';
+		}
 	}
 	else
 	{
@@ -50,7 +57,7 @@ if(isset($_POST['send_message']))
 		$message = Swift_Message::newInstance('Nouveau contact')
 		  ->setFrom(array(GMAIL_SENDER))
 		  ->setTo(array(GMAIL_RECIEVER))
-		  ->setBody($_POST['message']);
+		  ->setBody($message);
 
 
 		if(CAN_SEND_EMAIL == true)
@@ -76,8 +83,13 @@ if(isset($_POST['send_message']))
 		<link rel="stylesheet" href="css/shoes.css"/>
 		<script type="text/javascript" src="js/site.js"></script>
 		<title> Choose the Shoes </title>
-	
+		
+		<!-- jquery -->
 		<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+
+		<!-- popup -->
+		<link rel="stylesheet" href="magnific-popup/dist/magnific-popup.css"> 
+		<script src="magnific-popup/dist/jquery.magnific-popup.js"></script>
 	</head>
 	<body>
 		<div id="main">

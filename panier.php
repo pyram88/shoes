@@ -3,12 +3,12 @@
 <!-- <h2 class="qui"> Mon panier</h2> -->
 
 <div id="panier">
-	<?php if (count($_SESSION['panier']) == 0) : ?>
+	<?php if (isset($_SESSION['panier']) && count($_SESSION['panier']) == 0) : ?>
 		<h3>Oupsi, votre panier est vide !</h3>
 	<?php endif; ?>
 
 
-	<?php if (count($_SESSION['panier']) == 4): ?>
+	<?php if (isset($_SESSION['panier']) && count($_SESSION['panier']) == 4): ?>
 		<a class="cadeau-enable popup-with-zoom-anim" href="#custom-content">Cadeau</a>
 	<?php else: ?>
 		<a class="cadeau-disable" >Cadeau</a>
@@ -25,24 +25,26 @@
 			</tr>
 		</thead>
 		<tbody>
-		<?php foreach ($_SESSION['panier'] as $refProduit => $produit) : ?>
-			<tr>
-				<td><img src="image/image<?php echo $refProduit ?>.jpg" /></td>
-				<td><?php echo $produit['nomProduit'] ?></td>
-				<td><?php echo $produit['pointure'] ?></td>
-				<td>Gratuit</td>
-				<td>
-					<form action="" method="post">
-						<input type="hidden" name="id" value="<?php echo $refProduit ?>" />
-						<input type="submit" name="deletePanier" value="supprimer"/>
-					</form>
-				</td>
-			</tr>
-		<?php endforeach; ?>
+		<?php if (isset($_SESSION['panier'])): ?>
+			<?php foreach ($_SESSION['panier'] as $refProduit => $produit) : ?>
+				<tr>
+					<td><img src="image/image<?php echo $refProduit ?>.jpg" /></td>
+					<td><?php echo $produit['nomProduit'] ?></td>
+					<td><?php echo $produit['pointure'] ?></td>
+					<td>Gratuit</td>
+					<td>
+						<form action="" method="post">
+							<input type="hidden" name="id" value="<?php echo $refProduit ?>" />
+							<input type="submit" name="deletePanier" value="supprimer"/>
+						</form>
+					</td>
+				</tr>
+			<?php endforeach; ?>
+		<?php endif; ?>
 		</tbody>
 	</table>
 
-	<?php if(count($_SESSION['panier']) >= 4) : ?>
+	<?php if(isset($_SESSION['panier']) && count($_SESSION['panier']) >= 4) : ?>
 	    <div id="custom-content" class="zoom-anim-dialog mfp-hide">
 	    	<h1>Bravo</h1>
 	    	<p><a href="panier.php" >Voici ma photo</p>

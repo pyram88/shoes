@@ -26,9 +26,9 @@
 
 <h3 class="titre_profil">Mes conseillers</h3>
 <ul class="conseillers">
-	<li class="align-top"><img src="image/EY.png" alt="conseil1"/><strong>EY</strong></br> <em>"La simplicité fait souvent l'élégance"</em></li>
-	<li class="align-top"><img src="image/JPR.jpg" alt="conseil2"/><strong>J-P.Raffarin</strong></br><em>"Moi mon dada, ce sont les couleurs flashy"</em></li>
-	<li><img src="image/BNP.jpg" alt="conseil3"/><strong>BNP Paribas </strong></br><em>"J'abuse beaucoup des positions relatives"</li>
+	<li class="align-top"><img src="image/EY2.png" alt="conseil1"/><strong>EY</strong></br> <em>"La simplicité fait souvent l'élégance"</em></li>
+	<li class="align-top"><img src="image/JPR2.png" alt="conseil2"/><strong>J-P.Raffarin</strong></br><em>"Moi mon dada, ce sont les couleurs flashy"</em></li>
+	<li class="align-top"><img src="image/BNP2.png" alt="conseil3"/><strong>BNP Paribas </strong></br><em>"Le vert ça revient à la mode, non?"</li>
 	<li class="align-top"><img src="image/GR.jpg" alt="conseil3"/><strong>Guy Roux</strong> </br><em> "Le legging c'est juste PAS possible!"</em></li> 
 </ul>
 

@@ -3,7 +3,7 @@
 			<tr>
 				<td width="50%"><img src="image/chaussure3_grand.jpg" alt="chaussure_3"class="Chaussure_photo"/></td>
 				<td width="50%">
-					<span class="title-produit">Basket "cool Raoul"</span>				
+					<span class="title-produit">Les chaussures de la serveuse</span>				
 					<form action="" method="post" >
 						<div class="pointure">
 							<p>
@@ -33,17 +33,20 @@
 		</table>
 	</div>
 	<aside class="description">
-		<h4>Chaussures festives pour adeptes de nuits endiablées</h4>
+		<h4>Maigrissez en bossant dans un restau c'est possible (enfin en théorie)</h4>
 		<div id="paragraphe">
-			<p>ÇA Y EST!</br>Tu l'as fait.Oui, tu es enfin arrivée en école de commerce, et puis pas nimporte laquelle, puisque tu es à l'ESCP.</br>
-			Te voilà donc partie la fleur au fusil, les cheveux au vent, dehambulant dans ce lieux magique dont tu as toujours rêvé.</br> 
-			Tu traverses sans (trop) d'encombres le WEI, les cours, lorsque soudain, prise d'un élan d'ambition tu décides de lister pour la JE. 
-			Te voilà donc à préparer l'équivalent de 3000 roulés-saucisses pour 600 personnes prêtes à débarquer, plus ssoifées que jamais.</br> 
-			"Ok, l'acool c'est bon, le taureau mécanique est en place, le mur en carton est prêt, bref, c'est parti pour une nuit qui s'annonce mémorable".</br> 
-			Et quelle nuit! Une soirée dont les gens te parlent encore aujourd'hui en disant "Vous aviez mis un canon à neige dans la cour!" 
-			Que de souvenirs que l'on garde et que l'on partage avec ses anciens compagnons d'aventure...</br> C'est souvent en repensant à ce moment que 
-			je pense à mes chaussures, car oui, elles ont tout vécu: des kilomètres faits jusqu'à METRO au démarchage de sponsors, TOUT.</br>
-			Ah oui, car au passage elles ont aussi pris l'huile froides des fritteuses au moment de ranger ce qui s'apparentait au vestiges d'une nuit inoubliable.
+			<p>Ces chaussures resprésente une passion que j'ai depuis toujours: celle de la cuisine et de la restauration. Elles sont même comparable à la cuisine;</br>
+			composées de plusieurs matières, couleurs et imprimés, elles forment un ensemble cohérent qui ravit tant les yeux que les pieds. La cuisine, c'est pareil
+			et c'est ce qui est beau dans cet art qui se partage comme aucun autre. La cuisine demande rigueur mais aussi créativité, elle demande du travail mais aussi
+			une part de génie. Bosser en restauration, c'est aimer rapprocher les contraires finalement. Et c'est une chose que j'ai pu mettre à profit depuis quelques années
+			maintenant. Car la passion est d'abord une histoire de famille, qui ma été transmise par ma mère et ma grand-mère avec qui je cuisine depuis l'enfance.
+			Et puis depuis maintenant deux ans, j'ai pu vraiment entrer dans le monde de la restauration en travaillant comme serveuse dans un restaurant.</br>
+			Si vous demandez à mes amis ce qu'ils pensent que je veux faire plus tars, la grande majorité vous répondra "le rêve de Marie, c'est d'ouvrir son bar/restau!". Et c'est vrai!
+			Rien ne me passionne plus que de travailler au contact permanent des clients, de ne pas être assise devant un bureau et un ordinateur continuellement (même si j'aime excel, ce qui est d'autant plus bizarre à dire!)</br>
+			Bref, partager les goûts, faire découvrir de nouvelles choses aux personnes et leur offrir un voyage le temps d'un repas est quelque chose qui me motive plus que tout.</br>
+			Malgré cela, je ne sais pas si la tenue d'un établissement se fera tout de suite, mais je souhaite créer mon entreprise dans ce secteur (j'ai notamment mes petites idées que j'espère pouvoir partager avec vous dans le futur).</br></br>
+			Ces chaussures m'ont accompagné pendant cette période de travail, et pour moi elles représentent mon avenir professionnel, du moins comme je voudrais qu'il soit!
+
 			</p>
 		</div>
 	</aside>
@@ -68,9 +71,9 @@
 							</td>
 							<td width="25%">
 								<ul id="para_2">
-									<li><span class="answer">2010 à la suite de mon premier potliste</span></li>
-									<li><span class="answer">Vraie peau de bête en provenance d'H&M</span></li>
-									<li><span class="answer">Elles ont fait la guerre</span></li>
+									<li><span class="answer">2012 après un premier service en bottines</span></li>
+									<li><span class="answer">Savant mélange du chef</span></li>
+									<li><span class="answer">Fonctionnelles</span></li>
 								</ul>
 							</td>
 
@@ -82,8 +85,8 @@
 							</td>
 							<td width="25%">
 								<ul id="para_4">
-									<li><span class="answer">Twerk hability</span></li>
-									<li><img src="image/lavage.png" alt="lavage"/></li>
+									<li><span class="answer">Passion de la restauration, bras super forts pour porter les plats</span></li>
+									<li><img src="image/lavage4.png" alt="lavage"/></li>
 
 								</ul>
 							</td>
@@ -95,24 +98,24 @@
 	
 					<div id="plus_moins">
 						<table width="100%">
-							<thead id="tab_plus_moins">
+							<thead id="tab_plus_moins_4">
 								<th width="50%">Les plus</th>
 								<th width="50%">Les moins</th>
 							</thead>
 							<tbody>
 								<tr>
-									<td id="tab_plus">
+									<td id="tab_plus_4">
 										<!-- Les plus -->
 										<ul id = "plus">
-											<li><img src="image/check.png" alt="check"/>Un style certain</li>
-											<li><img src="image/check.png" alt="check"/>Résistent à tout</li>
+											<li><img src="image/check.png" alt="check"/>Confortables</li>
+											<li><img src="image/check.png" alt="check"/>Permettent aux autres de vous répérer rapidement</li>
 										</ul>
 									</td>
-									<td id= "tab_moins">
+									<td id= "tab_moins_4">
 										<!-- Les moins -->
 										<ul id="moins">
-											<li><img src="image/check.png" alt="check"/>Pas très distinguées pour un cocktail</li>
-											<li><img src="image/check.png" alt="check"/>Problème de senteur en fin de soirée</li>
+											<li><img src="image/check.png" alt="check"/>Attention à ne pas leur renverser de vin dessus</li>
+											<li><img src="image/check.png" alt="check"/>Il faut assumer de les porter!</li>
 										</ul>
 									</td>
 								</tr>
@@ -120,3 +123,9 @@
 						</table>
 					</div>
 				</div>
+				<h4>Conseillées par</h4>
+					<ul class="conseillers_produits">
+						<li class="align-top"><img src="image/philippe.png" alt="conseil1"/><strong>Philippe Etchebest</strong></br> <em>"J'espère que tu viendras pas faire Chauchemar en Cuisine avec ça!"</em></li>
+						<li class="align-top"><img src="image/lignac.png" alt="conseil2"/><strong>Cyril Lignac</strong></br><em>"C'est gourmand croquant comme je l'aime!"</em></li>
+						<li class="align-top"><img src="image/timeout.png" alt="conseil3"/><strong>Time Out Paris </strong></br><em>"Courez-y, c'est un incontournable"</em></li>
+					</ul>

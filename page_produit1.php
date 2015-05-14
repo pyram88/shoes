@@ -47,7 +47,7 @@
 			</p>
 		</div>
 	</aside>
-
+	
 	
 			<table class="titre_tab" width="100%">
 				<thead id="tab_fiche">
@@ -121,3 +121,10 @@
 						</table>
 					</div>
 				</div>
+
+				<h4>Conseillées par</h4>
+		<ul class="conseillers_produits">
+			<li class="align-top"><img src="image/taureau.png" alt="conseil1"/><strong>Scep Exchange</strong></br> <em>"J'adore, mais je suis plus cuir"</em></li>
+			<li class="align-top"><img src="image/bpoirel.png" alt="conseil2"/><strong>Bruno Poirel</strong></br><em>"Soyez prêts à 19h!"</em></li>
+			<li class="align-top"><img src="image/ESCP.png" alt="conseil3"/><strong>ESCP Europe</strong></br><em>"Weclome home, girl"</em></li>
+		</ul>

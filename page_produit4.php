@@ -35,7 +35,7 @@
 	<aside class="description">
 		<h4>Les chaussures d'une vie</h4>
 		<div id="paragraphe">
-			<p>Ces chaussures, c'est un peu comme une madeleine de Proust pour moi. Dès que je les vois, j'ai comme un flot de souvenirs qui m'envahit. Je revois alors mes débuts à 7 ans</br>
+			<p>Ces chaussures, c'est un peu comme une madeleine de Proust pour moi. Dès que je les vois, j'ai comme un flot de souvenirs qui m'envahit. Je revois alors mes débuts à 7 ans
 			à essayer de mettre un ballon dans le panier. Je revois Sophie, Charlène, Romane, Laulau, Elo, Océ, Lohana, Delphine, Camille, Chrissy, Lana, Agnès, Auré, Ten, Amé, Karen, Soléane, Calipso, Laurie, et toutes les autres qui ont été ma famille pendant plus de 15ans.</br>
 			Je revois les coachs, Jean, Choupi, Frank, Sylvain, Emilie. Je me souviens de nos déplacements en championnat de France, de ces aller-retours entre Fréjus et la région lyonnaise, de ces devoirs que l'on faisaient dans le bus ou à l'hôtel.</br>
 			Je me souviens de la douleur, des larmes versées après les défaites, je me rappelle des discours d'avant-match, je me rapelle des matchs de merde, des meilleurs, de ces matchs qui aujourd'hui encore me donnent la chair de poule.</br>
@@ -122,3 +122,9 @@
 						</table>
 					</div>
 				</div>
+				<h4>Conseillées par</h4>
+					<ul class="conseillers_produits">
+						<li class="align-top"><img src="image/amslf.png" alt="conseil1"/><strong>Fréjus Var Basket</strong></br> <em>"Let's go defence let's go!"</em></li>
+						<li class="align-top"><img src="image/jean.png" alt="conseil2"/><strong>Coach Juanito</strong></br><em>"Maintenant que t'as les chaussures Marie, tu peux décrocher la caravane!"</em></li>
+						<li class="align-top"><img src="image/copines.png" alt="conseil3"/><strong>Les copines</strong></br><em>"Marie, il y a des trous dans tes chaussures, faudrait les changer!"</em></li>
+					</ul>

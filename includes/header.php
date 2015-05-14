@@ -38,6 +38,13 @@ if(isset($_POST['deletePanier']))
 		<link rel="stylesheet" href="css/shoes.css"/>
 		<script type="text/javascript" src="js/site.js"></script>
 		<title> Choose the Shoes </title>
+		
+
+		<!-- Start WOWSlider.com HEAD section -->
+		<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+		<script type="text/javascript" src="engine1/jquery.js"></script>
+		<!-- End WOWSlider.com HEAD section -->
+
 	</head>
 	<body>
 		<div id="main">
@@ -56,15 +63,15 @@ if(isset($_POST['deletePanier']))
 					</li>					
 
 					<li>
-						<a href="panier.php">Panier <?php if (isset($_SESSION['panier'])){ echo '('.count($_SESSION['panier']).')'; } ?></a>
+						<a href="panier.php"><img class="icon3" src="image/icon3.png" alt="cart"/>Panier <?php if (isset($_SESSION['panier'])){ echo '('.count($_SESSION['panier']).')'; } ?></a>
 					</li>	
 
 					<li>
-						<a href="profil.php">Compte</a>
+						<a href="profil.php"><img class="icon2" src="image/icon2.png" alt="account"/>Compte</a>
 					</li>	
 
 					<li>
-						<a href="index.php">Accueil</a>
+						<a href="index.php"><img class="icon1" src="image/home.png" alt="home"/>Accueil</a>
 					</li>
 				</ul>
 				</br>

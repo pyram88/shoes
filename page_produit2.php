@@ -123,3 +123,9 @@
 						</table>
 					</div>
 				</div>
+				<h4>Conseillées par</h4>
+					<ul class="conseillers_produits">
+						<li class="align-top"><img src="image/Cristina.png" alt="conseil1"/><strong>Christina.C</strong></br> <em>"Les escarpins, c'est un intemporel ma chérrrrie"</em></li>
+						<li class="align-top"><img src="image/maman.png" alt="conseil2"/><strong>Maman</strong></br><em>"Avec ça, tu vas faire un tabac au boulot!"</em></li>
+						<li class="align-top"><img src="image/pieds.png" alt="conseil3"/><strong>Union Syndicale des pieds </strong></br><em>"Les talons c'est tabou, on en viendra tous à bout!"</em></li>
+					</ul>

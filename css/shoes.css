@@ -115,7 +115,7 @@ nav{
 .carrousel li
 {
 	display:block;
-	margin-right:54px;
+	margin-right:53px;
 	display:inline-block;
 	vertical-align: center;
 
@@ -232,6 +232,12 @@ p
 		font-weight : bold; /* on met le texte en gras */
         font-family: "Peignot";
         font-size : 16px; /* hauteur du texte : 12 pixels */
+}
+
+@-moz-document url-prefix() {
+	#menu{
+		letter-spacing: -1px;
+	}
 }
 
 

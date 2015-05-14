@@ -7,14 +7,8 @@
 		<h3>Oupsi, votre panier est vide !</h3>
 	<?php endif; ?>
 
-
-<<<<<<< HEAD
-	<?php if (count($_SESSION['panier']) == 4): ?>
-		<a class="cadeau-enable popup-with-zoom-anim" href="#custom-content2">Cadeau</a>
-=======
 	<?php if (isset($_SESSION['panier']) && count($_SESSION['panier']) == 4): ?>
-		<a class="cadeau-enable popup-with-zoom-anim" href="#custom-content">Cadeau</a>
->>>>>>> 004ddfe67d2fc31d7afb98e639caa5267d90592e
+		<a class="cadeau-enable popup-with-zoom-anim" href="#custom-content2">Cadeau</a>
 	<?php else: ?>
 		<a class="cadeau-disable" >Cadeau</a>
 	<?php endif; ?>

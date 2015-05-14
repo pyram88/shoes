@@ -25,12 +25,12 @@
 <h2 class="concept"> Concept </h2>
 <div id="concept_main">
 	<p class="texte_concept">
-		Avant tout, mettons-nous d'accord.Contrairement à ce que vous pourriez penser, <span class="text">NON</span>, je ne suis pas une fétichiste.</br>
+		Avant tout, mettons-nous d'accord. Contrairement à ce que vous pourriez penser, <span class="text">NON</span>, je ne suis pas une fétichiste.</br>
 		Le thème des <span class="text">pieds</span>, c'est avant tout une manière de rendre hommage à un outils souvent laissé à l'abandon.</br>
 		Là où vous voyez un cor ou une ampoule, j'ai décidé de voir le témoin d'un voyage ou d'une <span class="text">prise de décision</span>.</br>
 		Le but de ce petit site est d'essayer de vous montrer ma personnalité en faisant parler mes <span class="text">chaussures</span>, qui comme un habit, se portent différemment en des occasions distinctes.
-		L'autre objectif est notament de vous montrer ma <span class="text">motivation</span> pour la <span class="text">Chaire Entrepreneuriat ESCP Europe</span> de manière humoristique et mon attrait pour l'<span class="text">innovation</span> et le <span class="text">numérique</span></br>
-		Ce site, qui se veut donc volontairement ressemblant à un site de e-commerce a été réalisé grâce à des MOOC portant sur HTML et CSS.</br></br>
+		L'autre objectif est notament de vous montrer ma <span class="text">motivation</span> pour la <span class="text">Chaire Entrepreneuriat ESCP Europe</span> de manière humoristique et mon attrait pour l'<span class="text">innovation</span> et le <span class="text">numérique</span>.</br>
+		Ce site, qui se veut donc volontairement ressemblant à un site de <span class="text">e-commerce</span> a été réalisé grâce à des MOOC portant sur HTML et CSS.</br></br>
 		En espérant qu'il saura vous plaire et que vous en apprécierez la navigation! 
 	</p>
 </div>

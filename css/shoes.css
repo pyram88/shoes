@@ -302,12 +302,12 @@ html>body #menu li ul ul
 
 .qui,.ton_profil
 {
-	top:120px;
-	text-align:center;
-	color:rgb(254,134,120);
-	font-size: 55px;
-	font-family:"Alex-Brush";
-	  margin-bottom: 0px;
+	top: 80px;
+  /* text-align: center; */
+  color: rgb(254,134,120);
+  font-size: 40px;
+  font-family: "Alex-Brush";
+  margin-bottom: 0px;
 }
 
 h3
@@ -892,21 +892,48 @@ aside p
 
 form.contact label{
 	display: block;
+	font-family: "Peignot";
+	font-size: 25px;
+
+
 }
 
 form.contact input[type="text"]{
 	margin: 5px 5px 5px 0;
 	height: 20px;
 	width: 200px;
+	font-family: "Peignot";
+	font-size: 18px;
 }
 
 form.contact{
 	width: 500px;
 	margin:auto;
+	font-family: "Peignot";
+	font-size: 18px;
+
 }
 
 form.contact textarea
 {
 	width: 419px;
 	height: 225px;
+	font-family: "Peignot";
+	font-size: 18px;
+	text-align: justify;
+}
+
+#main_contact
+{
+
+	margin-top: 30px;
+}
+
+.img_contact
+{
+  width: 249px;
+  height: auto;
+  margin: auto;
+  float: 50px;
+  float: right;
 }

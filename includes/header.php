@@ -3,13 +3,17 @@ session_start();
 include 'includes/config.php';
 include 'includes/post.php';
 require_once 'swiftmailer/lib/swift_required.php';
+
+// Menu active
+$requestUri = $_SERVER['REQUEST_URI'];
+$requestUri = str_replace('/', '', $requestUri);
+$requestUri = str_replace('.php', '', $requestUri);
 ?>
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="css/shoes.css"/>
-		<script type="text/javascript" src="js/site.js"></script>
 		<title> Choose the Shoes </title>
 		
 		<!-- jquery -->
@@ -18,6 +22,8 @@ require_once 'swiftmailer/lib/swift_required.php';
 		<!-- popup -->
 		<link rel="stylesheet" href="magnific-popup/dist/magnific-popup.css"> 
 		<script src="magnific-popup/dist/jquery.magnific-popup.js"></script>
+
+		<script type="text/javascript" src="js/site.js"></script>
 	</head>
 	<body>
 		<div id="main">
@@ -28,23 +34,23 @@ require_once 'swiftmailer/lib/swift_required.php';
 			<nav>
 				<ul id="menu">
 					<li>
-						<a href="merciqui.php">Merci qui?</a>
+						<a <?php if($requestUri == 'merciqui'): ?> class="menu_active" <?php endif; ?>href="merciqui.php">Merci qui?</a>
 					</li>
 					
 					<li>
-						<a href="contact.php">Contact</a>
+						<a <?php if($requestUri == 'contact'): ?> class="menu_active"  <?php endif; ?> href="contact.php">Contact</a>
 					</li>					
 
 					<li>
-						<a href="panier.php"><img class="icon3" src="image/icon3.png" alt="cart"/>Panier <?php if (isset($_SESSION['panier'])){ echo '('.count($_SESSION['panier']).')'; } ?></a>
+						<a <?php if($requestUri == 'panier'): ?> class="menu_active"  <?php endif; ?> href="panier.php"><img class="icon3" src="image/icon3.png" alt="cart"/>Panier <?php if (isset($_SESSION['panier'])){ echo '('.count($_SESSION['panier']).')'; } ?></a>
 					</li>	
 
 					<li>
-						<a href="profil.php"><img class="icon2" src="image/icon2.png" alt="account"/>Compte</a>
+						<a <?php if($requestUri == 'profil'): ?> class="menu_active"  <?php endif; ?> href="profil.php"><img class="icon2" src="image/icon2.png" alt="account"/>Compte</a>
 					</li>	
 
 					<li>
-						<a href="index.php"><img class="icon1" src="image/home.png" alt="home"/>Accueil</a>
+						<a <?php if($requestUri == 'index' || $requestUri == '	'): ?> class="menu_active"  <?php endif; ?> href="index.php"><img class="icon1" src="image/home.png" alt="home"/>Accueil</a>
 					</li>
 				</ul>
 				</br>

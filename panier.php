@@ -33,7 +33,7 @@
 					<td>Gratuit</td>
 					<td>
 						<form action="" method="post">
-							<a href="javascript:deleteProduit('<?php echo $refProduit ?>')"> <img src="image/icon_close.png" title="supprimer" /></a>
+							<a href="javascript:deleteProduit('<?php echo $refProduit ?>')"> <img class="icon-delete" src="image/icon_close.png" title="supprimer" /></a>
 							<input type="hidden" name="id" value="<?php echo $refProduit ?>" />
 							<input style="display:none" class="submit-<?php echo $refProduit ?>" type="submit" name="deletePanier" value="supprimer"/>
 						</form>

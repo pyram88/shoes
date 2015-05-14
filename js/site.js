@@ -14,5 +14,9 @@ if (window.attachEvent) window.attachEvent("onload", sfHover);
 
 function deleteProduit(refProduit)
 {
-	$('.submit-'+refProduit).trigger('click');
+    $('.submit-'+refProduit).trigger('click');
 }
+
+$(document).ready(function() {
+    $(".confirm, .error").delay(2000).fadeOut(500);
+});

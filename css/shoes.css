@@ -294,7 +294,7 @@ html>body #menu li ul ul
         border-left     : 1px solid transparent ; /* on met une bordure transparente sur la gauche de chaque élément */
 }
 
-#menu a:hover /* Lorsque la souris passe sur un des liens */    
+#menu a:hover, .menu_active /* Lorsque la souris passe sur un des liens */    
 {
      border-bottom: 1px solid black;
 }
@@ -692,6 +692,8 @@ input[name='addPanier']:hover, input[name='send_message']:hover{
   margin-bottom: 10px;
   font-family: "Open-sans-light";
   font-weight: bold;
+  position: absolute;
+  margin-top: -50px;
 }
 
 .error{
@@ -706,6 +708,8 @@ input[name='addPanier']:hover, input[name='send_message']:hover{
   margin-bottom: 10px;
   font-family: "Open-sans-light";
   font-weight: bold;
+  position: absolute;
+  margin-top: -50px;
 }
 
 footer{
@@ -1078,4 +1082,8 @@ form.contact textarea
 	font-family: "Peignot";
 	font-size:29px;
 	text-align: center;
+}
+
+.icon-delete{
+	width:35px
 }

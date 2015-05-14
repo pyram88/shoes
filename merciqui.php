@@ -1,6 +1,5 @@
 <?php include("includes/header.php") ?>
 				
-<h3 class="qui"> Merci qui? </h3>
 	<div class="merki">
 		<p id="merci">
 		Parce que lorsque l'on veut être entrepreneur il faut s'armer de courage et de passion, mais aussi des surtout des bonnes personnes...

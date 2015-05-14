@@ -33,8 +33,9 @@
 					<td>Gratuit</td>
 					<td>
 						<form action="" method="post">
+							<a href="javascript:deleteProduit('<?php echo $refProduit ?>')"> <img src="image/icon_close.png" title="supprimer" /></a>
 							<input type="hidden" name="id" value="<?php echo $refProduit ?>" />
-							<input type="submit" name="deletePanier" value="supprimer"/>
+							<input style="display:none" class="submit-<?php echo $refProduit ?>" type="submit" name="deletePanier" value="supprimer"/>
 						</form>
 					</td>
 				</tr>
@@ -58,7 +59,7 @@
 	    </div>
 
 		<script type="text/javascript">
-		 
+				 
 		$(document).ready(function() {
 			$('.popup-with-zoom-anim').magnificPopup({
 				type: 'inline',

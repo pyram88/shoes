@@ -12,3 +12,7 @@ sfHover = function() {
 if (window.attachEvent) window.attachEvent("onload", sfHover);
 
 
+function deleteProduit(refProduit)
+{
+	$('.submit-'+refProduit).trigger('click');
+}

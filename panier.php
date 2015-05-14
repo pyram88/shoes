@@ -47,14 +47,24 @@
 	<?php if(isset($_SESSION['panier']) && count($_SESSION['panier']) >= 4) : ?>
 	    <div id="custom-content2" class="zoom-anim-dialog mfp-hide">
 		    <div id="popup-content">
-		    	<h1 class="offre_speciale">Recevez gratuitement ce cadeau un peu empoisonné!</h1>
-		    	<p id="popup_text">Cliquez sur oui pour offrir une nouvelle vie à ce petit être esseulé :)</br></br><p> 
-		    	<img class="me" src="image/moi.jpg" alt="ridiculité"/>
-		    	
-		    	<ul id="choix">
-			    	<li><a class="lien_panier" href="panier.php"> Oui j'accepte!</a></li>
-			    	<li><a class="lien_panier" href="panier.php"> Non, je ne suis pas intéressé(e)</a></li>
-		   		</ul>
+		    	<div class="first-content">
+			    	<h1 class="offre_speciale">Recevez gratuitement ce cadeau un peu empoisonné!</h1>
+			    	<p id="popup_text">Cliquez sur oui pour offrir une nouvelle vie à ce petit être esseulé :)</br></br><p> 
+			    	<img class="me" src="image/moi.jpg" alt="ridiculité"/>
+			    	
+			    	<ul id="choix">
+				    	<li><a class="lien_panier link_accepted" href=""> Oui j'accepte!</a></li>
+				    	<li><a class="lien_panier link_refused" href=""> Non, je ne suis pas intéressé(e)</a></li>
+			   		</ul>
+		   		</div>
+
+		   		<div class="accepted" style="display:none">
+		   			MERCI !
+		   		</div>
+		   			
+		   		<div class="refused" style="display:none">
+		   			SNIF !
+		   		</div>
 		    </div>
 	    </div>
 
@@ -74,7 +84,30 @@
 
 				midClick: true,
 				removalDelay: 300,
-				mainClass: 'my-mfp-zoom-in'
+				mainClass: 'my-mfp-zoom-in',
+				callbacks: {
+					close: function(){
+						$('.first-content').show();
+						$('.accepted').hide();
+						$('.refused').hide();
+					}
+				}
+			});
+
+			$('.link_refused').click(function(e)
+			{
+				e.preventDefault();
+				$('.first-content').fadeOut(500, function(){
+					$('.refused').fadeIn(500);
+				});
+			});
+
+			$('.link_accepted').click(function(e)
+			{
+				e.preventDefault();
+				$('.first-content').fadeOut(500, function(){
+					$('.accepted').fadeIn(500);
+				});
 			});
 		});
 	  

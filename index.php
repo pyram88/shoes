@@ -34,25 +34,6 @@
 		En espérant qu'il saura vous plaire et que vous en apprécierez la navigation! 
 	</p>
 </div>
-<!-- Start WOWSlider.com BODY section
-<div id="wowslider-container1">
-<div class="ws_images"><ul>
-		<li><img src="data1/images/chaussure1_grand.jpg" alt="chaussure1_grand" title="chaussure1_grand" id="wows1_0"/></li>
-		<li><img src="data1/images/chaussure2_grand.jpg" alt="chaussure2_grand" title="chaussure2_grand" id="wows1_1"/></li>
-		<li><a href="http://wowslider.net"><img src="data1/images/chaussure3_grand.jpg" alt="jquery slider" title="chaussure3_grand" id="wows1_2"/></a></li>
-		<li><img src="data1/images/moi_petite.jpg" alt="moi_petite" title="moi_petite" id="wows1_3"/></li>
-	</ul></div>
-	<div class="ws_bullets"><div>
-		<a href="#" title="chaussure1_grand"><span><img src="data1/tooltips/chaussure1_grand.jpg" alt="chaussure1_grand"/>1</span></a>
-		<a href="#" title="chaussure2_grand"><span><img src="data1/tooltips/chaussure2_grand.jpg" alt="chaussure2_grand"/>2</span></a>
-		<a href="#" title="chaussure3_grand"><span><img src="data1/tooltips/chaussure3_grand.jpg" alt="chaussure3_grand"/>3</span></a>
-		<a href="#" title="moi_petite"><span><img src="data1/tooltips/moi_petite.jpg" alt="moi_petite"/>4</span></a>
-	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">image slider jquery</a> by WOWSlider.com v8.0</div>
-<div class="ws_shadow"></div>
-</div>	
-<script type="text/javascript" src="engine1/wowslider.js"></script>
-<script type="text/javascript" src="engine1/script.js"></script>
- End WOWSlider.com BODY section -->
 
 
 <h2 class="concept2"> Comment ça marche? </h2>

@@ -24,7 +24,7 @@
 							<br/>
 							<span class="livraison">Livraison à l'ESCP sous 5 minutes</span>
 						</div>
-						<input type="hidden" name="nomProduit" value="Basket 'cool Raoul'" />
+						<input type="hidden" name="nomProduit" value="Les chaussures de la serveuse" />
 						<input type="hidden" name="refProduit" value="<?php echo $_GET['id'] ?>" />
 						<input type="submit" name="addPanier" value="Ajouter au panier" />
 					</form>	

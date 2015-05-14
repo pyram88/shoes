@@ -7,7 +7,7 @@
 	<?php endif; ?>
 
 
-	<?php if(count($_SESSION['panier']) >= 4) : ?>
+	<?php if(isset($_SESSION['panier']) && count($_SESSION['panier']) >= 4) : ?>
 
 		<a class="popup-with-zoom-anim" href="#custom-content" style="display:none" ></a>
 	    <div id="custom-content" class="zoom-anim-dialog mfp-hide">

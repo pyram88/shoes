@@ -11,8 +11,10 @@
 
 		<a class="popup-with-zoom-anim" href="#custom-content" style="display:none" ></a>
 	    <div id="custom-content" class="zoom-anim-dialog mfp-hide">
-	    	<h1>Bravo</h1>
-	    	<p><a href="panier.php" >Accédez à votre panier</a> et découvrez le cadeau mistère !</p>
+	    	<div id="popup-content">
+		    	<h1 class="offre_speciale">Offre spéciale</h1>
+		    	<p id="popup_text">Vous avez ajouté les quatre articles!</br>Accédez à votre panier et découvrez le cadeau mystère</br></br><a class="lien_panier" href="panier.php" >Voir mon panier</a></p>
+	    	</div>
 	    </div>
 
 		<script type="text/javascript">

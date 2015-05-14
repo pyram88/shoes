@@ -9,7 +9,7 @@
 
 
 	<?php if (count($_SESSION['panier']) == 4): ?>
-		<a class="cadeau-enable popup-with-zoom-anim" href="#custom-content">Cadeau</a>
+		<a class="cadeau-enable popup-with-zoom-anim" href="#custom-content2">Cadeau</a>
 	<?php else: ?>
 		<a class="cadeau-disable" >Cadeau</a>
 	<?php endif; ?>
@@ -43,9 +43,17 @@
 	</table>
 
 	<?php if(count($_SESSION['panier']) >= 4) : ?>
-	    <div id="custom-content" class="zoom-anim-dialog mfp-hide">
-	    	<h1>Bravo</h1>
-	    	<p><a href="panier.php" >Voici ma photo</p>
+	    <div id="custom-content2" class="zoom-anim-dialog mfp-hide">
+		    <div id="popup-content">
+		    	<h1 class="offre_speciale">Recevez gratuitement ce cadeau un peu empoisonné!</h1>
+		    	<p id="popup_text">Cliquez sur oui pour offrir une nouvelle vie à ce petit être esseulé :)</br></br><p> 
+		    	<img class="me" src="image/moi.jpg" alt="ridiculité"/>
+		    	
+		    	<ul id="choix">
+			    	<li><a class="lien_panier" href="panier.php"> Oui j'accepte!</a></li>
+			    	<li><a class="lien_panier" href="panier.php"> Non, je ne suis pas intéressé(e)</a></li>
+		   		</ul>
+		    </div>
 	    </div>
 
 		<script type="text/javascript">

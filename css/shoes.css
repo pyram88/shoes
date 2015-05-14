@@ -939,14 +939,39 @@ form.contact textarea
 }
 
 #custom-content{
-	background: white;
-	padding: 20px 30px;
+	background-image: url('../image/stripes.png');
+	background-color:white;
+	padding:10px;
 	text-align: left;
 	max-width: 400px;
 	margin: 40px auto;
 	position: relative;
 }
 
+#custom-content2
+{
+	background-image: url('../image/stripes.png');
+	background-color:white;
+	padding:10px;
+	text-align: left;
+	max-width: 700px;
+	margin:auto;
+	position: relative;
+}
+.me
+{
+  width: 539px;
+  margin: auto;
+  margin-bottom: 10px;
+  display: block;
+
+}
+
+#popup-content
+{
+	background:white;
+	padding: inherit;
+}
 .cadeau-disable{
 	display: block;
 	padding:15px;
@@ -962,6 +987,24 @@ form.contact textarea
 	text-decoration: none;
 }
 
+#choix
+{
+	list-style: none;
+	width:580px;
+	margin:auto;
+}
+
+#choix li
+{
+	display:inline-block;
+}
+
+#popup_text
+{
+	font-family: "Open-sans-light";
+	font-size:15px;
+	text-align: center;
+}
 .cadeau-enable{
 	display: block;
 	padding:15px;
@@ -975,4 +1018,44 @@ form.contact textarea
 	font-size: 16px;
 	width: 150px;
 	text-decoration: none;
+}
+
+.lien_panier
+{
+
+	display: block;
+	width: 268px;
+	height: 30px;
+	margin: auto;
+	background-color: rgb(255,0,88);
+	text-decoration: none;
+	font-family: "Peignot";
+	font-size:22px;
+	text-align: center;
+	padding-top: 10px;
+	color:white;
+}
+
+.lien_panier:hover
+{
+
+	display: block;
+	width: 268px;
+	height: 30px;
+	background-color: rgb(255,0,88);
+	opacity: 0.6;
+	text-decoration: none;
+	font-family: "Peignot";
+	font-size:22px;
+	text-align: center;
+	padding-top: 10px;
+	color:white;
+}
+
+.offre_speciale
+{
+	margin-top: 0;
+	font-family: "Peignot";
+	font-size:29px;
+	text-align: center;
 }

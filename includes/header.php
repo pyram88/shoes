@@ -1,8 +1,8 @@
 <?php
 session_start();
 include 'includes/config.php';
-include 'includes/post.php';
 require_once 'swiftmailer/lib/swift_required.php';
+include 'includes/post.php';
 
 // Menu active
 $requestUri = $_SERVER['REQUEST_URI'];

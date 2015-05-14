@@ -35,17 +35,17 @@
 	<aside class="description">
 		<h4>Maigrissez en bossant dans un restau c'est possible (enfin en théorie)</h4>
 		<div id="paragraphe">
-			<p>Ces chaussures resprésente une passion que j'ai depuis toujours: celle de la cuisine et de la restauration. Elles sont même comparable à la cuisine;</br>
-			composées de plusieurs matières, couleurs et imprimés, elles forment un ensemble cohérent qui ravit tant les yeux que les pieds. La cuisine, c'est pareil
-			et c'est ce qui est beau dans cet art qui se partage comme aucun autre. La cuisine demande rigueur mais aussi créativité, elle demande du travail mais aussi
-			une part de génie. Bosser en restauration, c'est aimer rapprocher les contraires finalement. Et c'est une chose que j'ai pu mettre à profit depuis quelques années
-			maintenant. Car la passion est d'abord une histoire de famille, qui ma été transmise par ma mère et ma grand-mère avec qui je cuisine depuis l'enfance.
-			Et puis depuis maintenant deux ans, j'ai pu vraiment entrer dans le monde de la restauration en travaillant comme serveuse dans un restaurant.</br>
-			Si vous demandez à mes amis ce qu'ils pensent que je veux faire plus tars, la grande majorité vous répondra "le rêve de Marie, c'est d'ouvrir son bar/restau!". Et c'est vrai!
-			Rien ne me passionne plus que de travailler au contact permanent des clients, de ne pas être assise devant un bureau et un ordinateur continuellement (même si j'aime excel, ce qui est d'autant plus bizarre à dire!)</br>
-			Bref, partager les goûts, faire découvrir de nouvelles choses aux personnes et leur offrir un voyage le temps d'un repas est quelque chose qui me motive plus que tout.</br>
-			Malgré cela, je ne sais pas si la tenue d'un établissement se fera tout de suite, mais je souhaite créer mon entreprise dans ce secteur (j'ai notamment mes petites idées que j'espère pouvoir partager avec vous dans le futur).</br></br>
-			Ces chaussures m'ont accompagné pendant cette période de travail, et pour moi elles représentent mon avenir professionnel, du moins comme je voudrais qu'il soit!
+			<p>Ces chaussures resprésente une <span class="text">passion</span> que j'ai depuis toujours: celle de la <span class="text">cuisine</span> et de la restauration. Elles sont même <span class="text">comparables à la cuisine</span>;
+			composées de plusieurs matières, couleurs et imprimés, elles forment un <span class="text">ensemble cohérent</span> qui ravit tant les <span class="text">yeux</span> que les <span class="text">pieds</span>. La cuisine, c'est pareil
+			et c'est ce qui est beau dans cet <span class="text">art qui se partage</span> comme aucun autre. La cuisine demande <span class="text">rigueur</span> mais aussi <span class="text">créativité</span>, elle demande du <span class="text">travail</span> mais aussi
+			une part de <span class="text">génie</span>pour les plus grands. Bosser en restauration, c'est <span class="text">aimer rapprocher les contraires</span> finalement. Et c'est une chose que j'ai pu mettre à profit depuis quelques années
+			maintenant.</br></br> Car la passion est d'abord une histoire de <span class="text">famille</span>, qui ma été transmise par ma mère et ma grand-mère avec qui je cuisine depuis l'enfance.</br>
+			Et puis depuis maintenant deux ans, j'ai pu vraiment entrer dans le monde de la restauration en travaillant comme <span class="text">serveuse</span>.</br></br>
+			Si vous demandez à mes amis ce qu'ils pensent que je veux faire plus tard, la grande majorité vous répondra "le rêve de Marie, c'est d'<span class="text">ouvrir son bar/restau!</span>". Et c'est vrai!
+			Rien ne me passionne plus que de travailler au <span class="text">contact permanent</span> des clients, de ne pas être assise devant un bureau et un ordinateur continuellement (même si j'aime excel, ce qui est d'autant plus bizarre à dire!)</br>
+			Bref, <span class="text">partager les goûts</span>, faire découvrir de <span class="text">nouvelles choses</span> aux personnes et leur offrir un <span class="text">voyage</span> le temps d'un <span class="text">repas</span> est quelque chose qui me motive plus que tout.</br>
+			Malgré cela, je ne sais pas si la tenue d'un établissement se fera tout de suite, mais je souhaite <span class="text">créer mon entreprise</span> dans ce secteur (j'ai notamment mes petites idées que j'espère pouvoir partager avec vous dans le futur).</br></br>
+			Ces chaussures m'ont accompagné pendant cette période de travail, et pour moi elles représentent <span class="text">mon avenir professionnel</span>, du moins comme je voudrais qu'il soit!
 
 			</p>
 		</div>

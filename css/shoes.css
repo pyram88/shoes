@@ -980,11 +980,12 @@ form.contact textarea
 	border: none;
 	cursor: pointer;
 	margin: auto;
-	font-family: "Open-sans-light";
-	font-weight: bold;
-	font-size: 16px;
-	width: 150px;
+	font-family: "Peignot";
+	font-size: 25px;
+	width: 340px;
 	text-decoration: none;
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 #choix
@@ -1008,17 +1009,36 @@ form.contact textarea
 .cadeau-enable{
 	display: block;
 	padding:15px;
-	background: rgb(254,134,120);
+	background: rgb(255,0,88);
 	color:#FFF;
 	border: none;
 	cursor: pointer;
 	margin: auto;
-	font-family: "Open-sans-light";
-	font-weight: bold;
-	font-size: 16px;
-	width: 150px;
+	font-family: "Peignot";
+	font-size: 25px;
+	width: 340px;
 	text-decoration: none;
+	text-align: center;
+	margin-bottom:20px;
 }
+.cadeau-enable:hover
+{
+	opacity:0.6;
+	display: block;
+	padding:15px;
+	background: rgb(255,0,88);
+	color:#FFF;
+	border: none;
+	cursor: pointer;
+	margin: auto;
+	font-family: "Peignot";
+	font-size: 25px;
+	width: 340px;
+	text-decoration: none;
+	text-align: center;
+	margin-bottom:20px;
+}
+
 
 .lien_panier
 {

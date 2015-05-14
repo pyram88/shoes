@@ -35,18 +35,18 @@
 	<aside class="description">
 		<h4>Ou l'application du conseil "il faut souffrir pour être belle"</h4>
 		<div id="paragraphe">
-			<p>"Marie quand même c'est bien beau que tu t'exprimes stylistiquement parlant, mais quand même, après le garçon manqué, la gothique et le look hippie, tu ne penses pas que tu pourrais faire un effort pour être plus féminine?" déclara ma mère</br>
-			J'ai dès lors compris avec effroi que mon trépas était proche et que l'aube d'une nouvelle époque approchait (autrement dit, j'allais prendre cher).
-			Ma mère se tourna d'un pas assuré, une boîte à la main, le regard vif et rond.
-			Elle avait l'air si ravie, si fière que son enfant s'élève au rang des femmes parmi les femmes. C'était fort, digne un rite initiatique.
-			Je m'approchai finalement de la boîte en question, ma triste Pandore, sombre objet de mes maux à venir. Quelle ne fut pas ma stupeur en découvrant cet objet, pourtant si beau et pourtant si froid.
-			Il y eu un cri lorsque j'ouvris ce coffret. "NNNNNNNOOOOOONNNNNNNNNNNN, s'il te plait, pas ce petit bout resserré!". Je m'étonnai alors de cette voix inconnue, que je n'avais jamais entendue
-			et cherchai alors à en identifier la source. C'est alors qu'en baissant la tête, j'aperçu ces petits être difformes me parler, petits être autrement connus sous le nom d'orteils.
-			"Mais tu vois bien qu'on est des pieds grecs, puis bon on est plutôt gros et longs, tu fais quand même du 41, c'est pas pour toi, mieux vaut des Crocs à ce niveau là" me dirent-ils, paniqués.
-			N'écoutant alors que mon courage, et non ces petits être grognons, j'enfilai ces délicates chaussures, qui eurent un effet redoutable. "Ouah, mes poteaux télégraphiques ressemblent enfin à des jambes!" lançai-je en direction de ma mère.
-			Mais la stupeur fut de courte durée, car une autre épreuve m'attendait. Il fallait dès lors arriver à marcher du haut de ces échasses. Sur ce coup, j'avais une avance certaine; des centaines d'émissions "Nouveau look pour une nouvelle vie" ainsi que "Les reines du shopping" m'avaient donné une formation théorique certaine</br>
-			J'entendis soudain une voix familière "Ma chérie pour être magnifyyyyyke tu dois marcher comme si il y avait une ligne devant toi! Et va pas me secouer le coco einh ohoh!"
-			Oh ma Christina, déesse entre toutes les déesses, ta force mentale n'a d'égal que ma haine de ces pompes!
+			<p>"Marie quand même c'est bien beau que tu t'exprimes <span class="text">stylistiquement parlant</span>, mais quand même, après le <span class="text">garçon manqué</span>, la <span class="text">gothique</span> et le <span class="text">look hippie</span>, tu ne penses pas que tu pourrais faire un effort pour être plus <span class="text">féminine</span>?" déclara ma mère</br>
+			Je compris dès lors avec effroi que mon trépas était proche et que l'aube d'une nouvelle époque <span class="text">approchait</span> (autrement dit, j'allais prendre cher).</br></br>
+			Ma mère se tourna d'un pas assuré, une <span class="text">boîte à la main</span>, le regard vif et rond.</br>
+			Elle avait l'air si ravie, si fière que son enfant s'élève au rang des femmes parmi les femmes. C'était fort, digne un rite <span class="text">initiatique</span>.
+			Je m'approchai finalement de la boîte en question, ma <span class="text">triste Pandore</span>, sombre objet de mes maux à venir. Quelle ne fut pas ma stupeur en découvrant cet objet, pourtant si <span class="text">beau</span> et pourtant si <span class="text">froid</span>.
+			Il y eu un cri lorsque j'ouvris le coffret.</br></br> "<span class="text">NNNNNNNOOOOOONNNNNNNNNNNN</span>, s'il te plait, pas ce petit bout resserré!". Je m'étonnai alors de cette voix <span class="text">inconnue</span>, que je n'avais jamais entendue
+			et cherchai alors à en identifier la <span class="text">source</span>. C'est alors qu'en baissant la tête, j'aperçu ces petits être <span class="text">difformes</span> me parler, petits être autrement connus sous le nom d'<span class="text">orteils</span>.</br></br>
+			"Mais tu vois bien qu'on est des <span class="text">pieds grecs</span>, puis bon on est plutôt gros et longs, tu fais quand même du<span class="text"> 41</span>, c'est pas pour toi, mieux vaut des <span class="text">Crocs</span> à ce niveau là" me dirent-ils, paniqués.
+			N'écoutant alors que mon courage, et non ces petits être grognons, j'enfilai ces <span class="text">délicates chaussures</span>, qui eurent un effet redoutable. "Ouah, mes poteaux télégraphiques ressemblent enfin à des <span class="text">jambes</span>!" lançai-je en direction de ma mère.
+			Mais la stupeur fut de courte durée, car une autre épreuve m'attendait. </br></br>Il fallait dès lors arriver à <span class="text">marcher</span> du haut de ces échasses. Sur ce coup là, j'avais une <span class="text">avance certaine</span>; des centaines d'émissions <span class="text">"Nouveau look pour une nouvelle vie"</span> ainsi que <span class="text">"Les reines du shopping"</span> m'avaient donné une formation théorique parfaite.
+			J'entendis soudain une voix familière:</br></br>"Ma chérie pour être <span class="text">magnifyyyyyke</span> tu dois marcher comme si il y avait une <span class="text">ligne</span> devant toi! Et va pas me secouer le coco einh ohoh!"
+			</br>Oh ma Christina, déesse entre toutes les déesses, ta <span class="text">force mentale</span> n'a d'égal que ma <span class="text">haine</span> de ces pompes!
 			</p>
 		</div>
 	</aside>

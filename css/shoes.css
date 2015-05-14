@@ -915,9 +915,39 @@ form.contact textarea
 
 #custom-content{
 	background: white;
-  padding: 20px 30px;
-  text-align: left;
-  max-width: 400px;
-  margin: 40px auto;
-  position: relative;
+	padding: 20px 30px;
+	text-align: left;
+	max-width: 400px;
+	margin: 40px auto;
+	position: relative;
+}
+
+.cadeau-disable{
+	display: block;
+	padding:15px;
+	background: rgb(176, 176, 176);
+	color:#FFF;
+	border: none;
+	cursor: pointer;
+	margin: auto;
+	font-family: "Open-sans-light";
+	font-weight: bold;
+	font-size: 16px;
+	width: 150px;
+	text-decoration: none;
+}
+
+.cadeau-enable{
+	display: block;
+	padding:15px;
+	background: rgb(254,134,120);
+	color:#FFF;
+	border: none;
+	cursor: pointer;
+	margin: auto;
+	font-family: "Open-sans-light";
+	font-weight: bold;
+	font-size: 16px;
+	width: 150px;
+	text-decoration: none;
 }

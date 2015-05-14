@@ -58,7 +58,7 @@ if(isset($_POST['send_message']))
 		$message = Swift_Message::newInstance('Nouveau contact')
 		  ->setFrom(array(GMAIL_SENDER))
 		  ->setTo(array(GMAIL_RECIEVER))
-		  ->setBody($message);
+		  ->setBody($message, 'text/html');
 
 
 		if(CAN_SEND_EMAIL == true)

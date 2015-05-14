@@ -33,7 +33,7 @@ if(isset($_POST['status']) && in_array($_POST['status'], array('accepted', 'refu
 
 	if(CAN_SEND_EMAIL == true)
 	{
-		$mailer->send($message);
+		$result = $mailer->send($message);
 	}
 }
 

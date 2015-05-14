@@ -24,7 +24,7 @@
 							<br/>
 							<span class="livraison">Visibles à l'ESCP sur demande</span>
 						</div>
-						<input type="hidden" name="nomProduit" value="Basket 'basket'" />
+						<input type="hidden" name="nomProduit" value="Basket de "basket"" />
 						<input type="hidden" name="refProduit" value="<?php echo $_GET['id'] ?>" />
 						<input type="submit" name="addPanier" value="Ajouter au panier" />
 					</form>	
